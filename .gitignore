@@ -1,0 +1,16 @@
+data/  
+checkpoints/  
+venv/  
+.ipynb_checkpoints/  
+*.pt  
+*.pkl  
+*.gz 
+data/raw/ 
+data/activations*/ 
+checkpoints/ 
+*.pt 
+*.pkl 
+*.faiss 
+__pycache__/ 
+.pytest_cache/ 
+*.egg-info/ 
