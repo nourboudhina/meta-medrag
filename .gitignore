@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 data/  
 checkpoints/  
 venv/  
@@ -14,3 +15,18 @@ checkpoints/
 __pycache__/ 
 .pytest_cache/ 
 *.egg-info/ 
+=======
+data/ 
+checkpoints/ 
+LLaVA-Med/ 
+*.pt 
+*.pkl 
+*.faiss 
+*.bin 
+*.safetensors 
+__pycache__/ 
+.pytest_cache/ 
+*.egg-info/ 
+logs/ 
+meta_medrag.egg-info/
+>>>>>>> 2098fb1f32d5412fc9b48b906ba7ff1ebe9270b0

@@ -1,0 +1,89 @@
+# configs/config.yaml
+# Central configuration for Meta-MedRAG
+# Edit paths and hyperparameters here — never hardcode in Python files
+
+# ── Backbone ─────────────────────────────────────────────────────────
+backbone:
+  model_name: "microsoft/llava-med-v1.5-mistral-7b"
+  device: "cpu"
+  torch_dtype: "float32"          # float16 for inference, bfloat16 for training
+  max_new_tokens: 512
+  temperature: 0.1
+  do_sample: false
+
+# ── Module 1: Meta-cognition probe ───────────────────────────────────
+metacognition:
+  probe_layers: [-2, -5, -8, -11, -15]   # transformer layer indices to extract
+  pca_components: 20                      # number of PCA components
+  theta_low: 0.35                         # below this → answer directly (no RAG)
+  theta_high: 0.65                        # above this → trigger RAG
+  # between theta_low and theta_high → soft retrieval (k=1)
+  probe_checkpoint: "checkpoints/meco_probe.pkl"
+  contrastive_data_path: "data/processed/contrastive_pairs.json"
+
+# ── Module 2: Adaptive retrieval ─────────────────────────────────────
+retrieval:
+  biomed_clip_model: "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224"
+  vector_store_dir: "data/vector_stores"
+  similarity_ratio_threshold: 0.85       # drop docs scoring below (top_score * ratio)
+  max_k: 5                               # maximum retrieved documents
+  min_k: 1
+  embedding_dim: 512
+  domains:
+    - radiology
+    - pathology
+    - ophthalmology
+
+# ── Module 3: DPO alignment ───────────────────────────────────────────
+alignment:
+  base_model: "microsoft/llava-med-v1.5-mistral-7b"
+  output_dir: "checkpoints/dpo_aligned"
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  lora_target_modules:
+    - "q_proj"
+    - "v_proj"
+    - "k_proj"
+    - "o_proj"
+  dpo_beta: 0.1                          # DPO temperature
+  learning_rate: 5.0e-5
+  num_train_epochs: 3
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8
+  warmup_ratio: 0.1
+  max_length: 1024
+  fp16: true
+  preference_data_path: "data/preference_pairs/dpo_dataset.json"
+
+# ── GPT-4o (preference pair generation) ──────────────────────────────
+openai:
+  model: "gpt-4o"
+  max_tokens: 1024
+  temperature: 0.7
+  n_pairs_per_report: 3               # preference pairs generated per radiology report
+
+# ── Datasets ─────────────────────────────────────────────────────────
+datasets:
+  mimic_cxr:
+    image_dir: "data/raw/mimic_cxr/images"
+    report_dir: "data/raw/mimic_cxr/reports"
+    split_file: "data/raw/mimic_cxr/splits.json"
+  iu_xray:
+    image_dir: "data/raw/iu_xray/images"
+    report_dir: "data/raw/iu_xray/reports"
+    split_file: "data/raw/iu_xray/splits.json"
+
+# ── Evaluation ────────────────────────────────────────────────────────
+evaluation:
+  results_dir: "experiments/results"
+  metrics:
+    vqa: ["accuracy", "f1"]
+    report_gen: ["bleu4", "rouge_l", "meteor"]
+  batch_size: 8
+
+# ── Logging ───────────────────────────────────────────────────────────
+logging:
+  level: "INFO"
+  log_dir: "logs"
+  log_file: "meta_medrag.log"
