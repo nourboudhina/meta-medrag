@@ -119,12 +119,9 @@ def run_inference(image, question: str):
 
 # ── Example cases ──────────────────────────────────────────────────────
 EXAMPLES = [
-    ["data/raw/mimic_cxr/sample/sample1.jpg",
-     "Is there evidence of cardiomegaly in this chest X-ray?"],
-    ["data/raw/mimic_cxr/sample/sample2.jpg",
-     "Are there signs of pleural effusion in this radiograph?"],
-    ["data/raw/iu_xray/sample/sample1.jpg",
-     "Describe the main findings in this chest X-ray."],
+    ["data/raw/iu_xray/images/CXR1000_IM-0003-1001.png", "Is there cardiomegaly?"],
+    ["data/raw/iu_xray/images/CXR1000_IM-0003-2001.png", "Are the lung fields clear?"],
+    ["data/raw/iu_xray/images/CXR1000_IM-0003-3001.png", "Is there pleural effusion?"],
 ]
 
 
@@ -173,9 +170,12 @@ def build_interface() -> gr.Blocks:
 
                 gr.Markdown("### Examples")
                 gr.Examples(
-                    examples=EXAMPLES,
+                    examples= [
+                        ["data/raw/iu_xray/images/CXR1000_IM-0003-1001.png", "Is there cardiomegaly?"],
+                        ["data/raw/iu_xray/images/CXR1000_IM-0003-2001.png", "Are the lung fields clear?"],
+                        ["data/raw/iu_xray/images/CXR1000_IM-0003-3001.png", "Is there pleural effusion?"],
+                    ],
                     inputs=[image_input, question_input],
-                    label="Click to load an example",
                 )
 
             # Right column — outputs
@@ -272,6 +272,8 @@ if __name__ == "__main__":
 
     if not args.no_pipeline:
         load_pipeline(args.config)
+    else:
+        logger.info("Running in demo mode without pipeline")
 
     demo = build_interface()
     demo.launch(
