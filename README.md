@@ -34,7 +34,7 @@ more factual by deciding WHEN to retrieve external knowledge — not always, onl
 
 Open the notebook directly:
 
-\[!\[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nourboudhina/meta-medrag/blob/main/notebooks/Meta_MedRAG_POC_Supervisor.ipynb)
+\[!\[Open In Colab](https://colab.research.google.com/github/nourboudhina/meta-medrag/blob/main/notebooks/Meta_MedRAG_POC_Supervisor.ipynb)
 
 
 
