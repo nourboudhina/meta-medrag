@@ -26,7 +26,7 @@ more factual by deciding WHEN to retrieve external knowledge — not always, onl
 
 
 
-\## Quick Start (Supervisor Testing)
+\## Quick Start 
 
 
 
