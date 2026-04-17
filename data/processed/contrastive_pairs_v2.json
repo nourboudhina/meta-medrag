@@ -1,0 +1,4382 @@
+[
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR104_IM-0031-0001-0002.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1061_IM-0043-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/858.png",
+    "question": "is bowel distension present?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1112.png",
+    "question": "is there involvement of the temporal lobes?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1044_IM-0036-1001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1374_IM-0240-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/875.png",
+    "question": "is the apical aeration normal or decreased?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1660_IM-0436-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1630.png",
+    "question": "is there free air under the diaphragm?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1538_IM-0348-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/557.png",
+    "question": "is there a fracture?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2461_IM-0994-0001-0001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2777_IM-1217-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1094_IM-0065-1001.png",
+    "question": "Does the picture contain heart?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR139_IM-0248-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1415.png",
+    "question": "is the appendix seen in this image inflamed?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1047_IM-0036-1001.png",
+    "question": "Where is/are the abnormality located?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "What is the typical radiological appearance of pulmonary alveolar proteinosis?",
+    "label": 1,
+    "source": "harder_unknown",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2755_IM-1204-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1004_IM-0005-1001.png",
+    "question": "Are there abnormalities in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/81.png",
+    "question": "is there an air fluid level present?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1396.png",
+    "question": "there is a mass found in which organ?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/867.png",
+    "question": "how many ribs are superimposed on the lung fields?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/484.png",
+    "question": "does this image use gi contrast?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR105_IM-0037-1001.png",
+    "question": "Is this a study of the head?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR111_IM-0076-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/619.png",
+    "question": "does the pancreatic head appear enlarged?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1045_IM-0036-1001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/683.png",
+    "question": "what is meant by tram-track?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1707.png",
+    "question": "are any fractures present?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/643.png",
+    "question": "on which side is air under the diaphragm?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1066_IM-0047-1001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1047_IM-0036-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1116_IM-0079-1001.png",
+    "question": "What is the largest organ in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1108_IM-0075-1001.png",
+    "question": "What is the color of abnormality in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1_1_IM-0001-3001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3263_IM-1549-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/418.png",
+    "question": "is the heart contour backwards?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1007_IM-0008-1001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1097_IM-0067-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1029_IM-0022-1001.png",
+    "question": "What color does the right lung show in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/7.png",
+    "question": "what is the location of the mass?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1034_IM-0028-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1085_IM-0059-1001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1192.png",
+    "question": "what can be typically visualized in this plane?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1025_IM-0020-1001.png",
+    "question": "Where is the heart in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3516_IM-1715-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1550_IM-0359-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1518.png",
+    "question": "what is the bump seen above the heart on the patient's right side?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/73.png",
+    "question": "is the heart border normal?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1052_IM-0040-1001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1110_IM-0076-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/897.png",
+    "question": "what is finding in the right lung?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1087_IM-0060-1002001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1032_IM-0026-1001-0001.png",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/267.png",
+    "question": "what is the gender of this patient?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/303.png",
+    "question": "is the pancreas edematous?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1056_IM-0040-1001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "question": "Is there evidence of early fibrosis in the lung bases?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1030_IM-0024-1001.png",
+    "question": "Which organ system is imaged?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR113_IM-0086-1001.png",
+    "question": "How many organs are there in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR230_IM-0880-0001-0001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1062_IM-0043-1001.png",
+    "question": "What is the largest organ in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1138_IM-0094-1001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1136_IM-0092-1001.png",
+    "question": "Do any of the organs in the picture belong to the respiratory system?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0004.png",
+    "question": "Is there evidence of pleural effusion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1117.png",
+    "question": "is this a cyst in the left lung?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1632_IM-0413-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2023_IM-0669-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1100_IM-0068-1001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1030_IM-0024-1001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1036_IM-0029-1001.png",
+    "question": "Is the tumor enhancing?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/362.png",
+    "question": "is the heart clearly visible?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1021_IM-0017-1001-0001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3074_IM-1435-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1847_IM-0550-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/756.png",
+    "question": "what are defining radiological features of large bowel?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2946_IM-1346-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2078_IM-0710-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1035_IM-0028-1001.png",
+    "question": "What is the organ on the left side of this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1034_IM-0028-1001.png",
+    "question": "What is the shape of the kidney in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2397_IM-0946-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1136_IM-0092-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/50.png",
+    "question": "where are the hyperintensities located?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "What is the radiological appearance of mild pulmonary edema?",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1064_IM-0045-1001.png",
+    "question": "Which organ is abnormal, heart or lung?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR100_IM-0002-1001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1135_IM-0091-1001.png",
+    "question": "Where is/are the abnormality located?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1087_IM-0060-1002001.png",
+    "question": "How to treat the disease located on the right of lung in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1108_IM-0075-1001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1016_IM-0013-1001.png",
+    "question": "Is the lung healthy?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1006_IM-0007-1001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1067_IM-0048-1001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1078_IM-0055-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1134_IM-0091-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1059_IM-0041-1001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1053_IM-0040-1001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1026_IM-0021-2002.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2315_IM-0889-1002.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1024_IM-0019-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2221_IM-0825-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1051_IM-0039-5001.png",
+    "question": "Does the picture contain heart?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1123_IM-0080-1001.png",
+    "question": "What modality is shown in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "What is the clinical significance of an enlarged cardiac silhouette in elderly patients?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1100_IM-0068-1001.png",
+    "question": "What color does the brain enhancing tumor show in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1013_IM-0013-1001.png",
+    "question": "What diseases are included in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1407.png",
+    "question": "which lobe of the brain demonstrates a hyper-intense signal in this t2 weighted mri image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "Describe the vascular markings in this chest radiograph.",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/832.png",
+    "question": "what indicates there is a consolidation in the right lung?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR159_IM-0382-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1021_IM-0017-1001-0001.png",
+    "question": "Where is the tooth in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1094_IM-0065-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/268.png",
+    "question": "is the heart greater than 50% of the chest diameter",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1304.png",
+    "question": "is there hydronephrosis?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2465_IM-0997-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1015_IM-0001-1001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1602.png",
+    "question": "is this a pa film?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/323.png",
+    "question": "what type of mr image modality is seen?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1008_IM-0009-2001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1179_IM-0122-2002.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/724.png",
+    "question": "which organ has the abnormality?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1009_IM-0010-1001.png",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2549_IM-1057-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1007_IM-0008-1001.png",
+    "question": "Is this a CT?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1019_IM-0015-1001.png",
+    "question": "What is the function of the rightmost organ in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1732.png",
+    "question": "are the clavicles fractured?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/85.png",
+    "question": "is air present in the bowel?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1036.png",
+    "question": "is this image a ct scan?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1217.png",
+    "question": "can you see the adrenals?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/229.png",
+    "question": "is there restricted diffusion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1074_IM-0054-1001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/148.png",
+    "question": "which organ is abnormally large?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1065_IM-0046-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1055_IM-0040-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1002_IM-0004-1001.png",
+    "question": "What is the largest organ in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/844.png",
+    "question": "is fat stranding present?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1095_IM-0066-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2016_IM-0665-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1466.png",
+    "question": "what could cause this finding?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/534.png",
+    "question": "how would you describe the central and surrounding intesities of the abnormality seen?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3330_IM-1594-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2940_IM-1341-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR185_IM-0551-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1765.png",
+    "question": "the bottom of the image indicates what area of the brain?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1124_IM-0081-2001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1013_IM-0013-1001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3461_IM-1682-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1131_IM-0088-0001-0001.png",
+    "question": "Are there organs in the picture that can deliver food?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1041_IM-0033-1001.png",
+    "question": "Which is the smallest in this image, rectum, small bowel or bladder?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/511.png",
+    "question": "what pathology is seen in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1346.png",
+    "question": "can the kidneys be visualized in this ct scan?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1058_IM-0041-1001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/316.png",
+    "question": "is the skull fractured?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1102_IM-0069-12012.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/416.png",
+    "question": "what is the location of the brain mass?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1846_IM-0549-3001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1945_IM-0614-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3092_IM-1445-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR108_IM-0056-1001.png",
+    "question": "Is this a X-Ray?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "What does the presence of Kerley B lines indicate?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1088_IM-0061-1001.png",
+    "question": "Where is the liver?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2065_IM-0701-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR100_IM-0002-1001.png",
+    "question": "What is the scanning plane of this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/938.png",
+    "question": "where is the abnormality in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1020_IM-0017-1001.png",
+    "question": "What organ is the black part on the left of the image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1124_IM-0081-2001.png",
+    "question": "In what plane is this image scanned?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1359_IM-0233-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/189.png",
+    "question": "how big is the mass?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3160_IM-1487-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1820_IM-0532-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1026_IM-0021-2002.png",
+    "question": "Does the picture contain kidney?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0012.png",
+    "question": "Is there evidence of consolidation?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1011_IM-0013-1001.png",
+    "question": "Does the picture contain liver?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1306_IM-0200-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/504.png",
+    "question": "are the ventricles visualized in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "Are the costophrenic angles blunted?",
+    "label": 0,
+    "source": "harder_known",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1018_IM-0014-5001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3142_IM-1477-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1118_IM-0079-1001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR110_IM-0067-1001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1395_IM-0251-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2779_IM-1218-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1042_IM-0034-1001.png",
+    "question": "Does the picture contain liver?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1660.png",
+    "question": "are there any fractures in any of the ribs?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1000_IM-0003-1001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1134_IM-0091-1001.png",
+    "question": "Are there abnormalities in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1070_IM-0050-1001.png",
+    "question": "Where is the brain edema?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1063_IM-0044-84654001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1276_IM-0184-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1520.png",
+    "question": "what part of the brain is seen in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR107_IM-0049-1001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1116_IM-0079-1001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "question": "Can you describe the pattern of consolidation visible in this image?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1084_IM-0058-1001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/746.png",
+    "question": "where is the abnormality?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1088_IM-0061-1001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1768_IM-0502-12012.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1097_IM-0067-1001.png",
+    "question": "Does the picture contain the organ that could be used for absorbing nutrients?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1049_IM-0036-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3491_IM-1698-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1445.png",
+    "question": "where is the enhancement in right rectus muscles?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0008.png",
+    "question": "Is there hilar lymphadenopathy?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1039_IM-0030-1002.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1072_IM-0052-1001-0001.png",
+    "question": "What is the scanning plane of this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/488.png",
+    "question": "where are the densities identified in the patient?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1268.png",
+    "question": "what is the most likely cause of these abnormalities?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1035.png",
+    "question": "which cardiac border is more prominently visualized?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1673.png",
+    "question": "what is the air under the left hemidiaphragm?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR279_IM-1224-1001-0001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/332.png",
+    "question": "is the mass enhancing?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1091_IM-0062-1001.png",
+    "question": "What modality is shown in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "Is there evidence of a small pleural effusion on the left?",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2018_IM-0665-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2473_IM-1003-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1083.png",
+    "question": "is the mass pushing on the midbrain structures?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/936.png",
+    "question": "where is the abnormality?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1440.png",
+    "question": "are the lesions in the cerebellum?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1117_IM-0079-1001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1121_IM-0080-1001.png",
+    "question": "Does this image look abnormal?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0003.png",
+    "question": "Is there evidence of pleural effusion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3433_IM-1662-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1815_IM-0527-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1113_IM-0078-1001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2218_IM-0823-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2043_IM-0686-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1054_IM-0040-1001.png",
+    "question": "How many kidneys in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/104.png",
+    "question": "is pericholecystic inflammation present?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1791.png",
+    "question": "are there other abnormalities besides the mass in the temporal horn?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1073_IM-0053-1001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1051_IM-0039-5001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1079_IM-0056-1001.png",
+    "question": "What modality is used to take this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1004_IM-0005-1001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1125_IM-0082-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1106_IM-0073-1001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1092_IM-0063-1001.png",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/577.png",
+    "question": "what vessel is likely the cause of this infarction?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/514.png",
+    "question": "what organ is edematous in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/167.png",
+    "question": "is there pleural thickening in the r lung?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1011_IM-0013-1001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2022_IM-0669-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1103_IM-0070-1001.png",
+    "question": "What is the effect of the main organ in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1045_IM-0036-1001.png",
+    "question": "Does the picture contain spleen?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR326_IM-1546-12012.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1111_IM-0077-1001.png",
+    "question": "How many lungs are shown in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR11_IM-0067-1001.png",
+    "question": "What is the largest organ in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/826.png",
+    "question": "is cerebral cortex present in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1035_IM-0028-1001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1104_IM-0071-1001.png",
+    "question": "Does the picture contain the organ which has the effect of sensing light?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/583.png",
+    "question": "what is the name of the lesions seen in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/261.png",
+    "question": "what side of the brain is the lesion on?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1252.png",
+    "question": "is there a lung mass?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1153.png",
+    "question": "is this in the pa plane?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR233_IM-0899-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/154.png",
+    "question": "is there hilar adenopathy?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1508.png",
+    "question": "what type of image is this?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "Can you identify any mediastinal abnormalities in this chest radiograph?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1023_IM-0018-1001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1_1_IM-0001-3001.png",
+    "question": "Which lobe is normal in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1022_IM-0017-1001.png",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1579.png",
+    "question": "is there midline shift?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1054_IM-0040-1001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1129.png",
+    "question": "is there lesion to other structures besides the medulla?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1652.png",
+    "question": "is there pneumothorax?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR103_IM-0023-1001.png",
+    "question": "What diseases are included in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR331_IM-1584-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1043_IM-0035-0001-0001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/212.png",
+    "question": "is the aorta visualized?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1003_IM-0005-2002.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1082_IM-0058-1001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1382.png",
+    "question": "is this xray suggestive of aortic dissection?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1022_IM-0017-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3236_IM-1533-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1000.png",
+    "question": "where on the image is the lesion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3420_IM-1656-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1746.png",
+    "question": "what is the shape of the mass?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2467_IM-0997-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1130_IM-0087-1001.png",
+    "question": "Which hemisphere is abnormal,left or right?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1195.png",
+    "question": "is the patient lying down?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1052_IM-0040-1001.png",
+    "question": "Which is smaller in this image, stomach or spleen?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1063_IM-0044-84654001.png",
+    "question": "What is the rightmost organ in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2655_IM-1137-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1216_IM-0144-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2680_IM-1154-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1107_IM-0074-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1271.png",
+    "question": "are the sulci blunted?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1029_IM-0022-1001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1944_IM-0613-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/430.png",
+    "question": "is the aorta visible in this section?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0002.png",
+    "question": "Is there evidence of consolidation?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR110_IM-0067-1001.png",
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2137_IM-0759-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3116_IM-1464-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1122_IM-0080-1001-0001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1129_IM-0085-1001.png",
+    "question": "What is the largest organ in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1069_IM-0049-1001.png",
+    "question": "Does the picture contain liver?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1005_IM-0006-1001.png",
+    "question": "Which part of the body does this image belong to?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/305.png",
+    "question": "is there air-fluid levels?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2387_IM-0943-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR292_IM-1322-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/210.png",
+    "question": "are the kidneys hyper attenuated?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1885_IM-0574-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1532_IM-0344-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR243_IM-0971-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1098_IM-0067-1001.png",
+    "question": "Where is/are the abnormality located?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1099_IM-0067-1001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1123_IM-0080-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR348_IM-1690-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1067_IM-0048-1001.png",
+    "question": "What is the main cause of the disease on the left lobe of brain in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1609_IM-0394-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1130_IM-0087-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1422_IM-0269-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0011.png",
+    "question": "Is there evidence of cardiomegaly?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1115_IM-0079-1001.png",
+    "question": "Is the lung healthy?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1014_IM-0013-1001.png",
+    "question": "What is the scanning plane of this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "What is the significance of tracheal deviation in this image?",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR102_IM-0016-1001.png",
+    "question": "What organ system is primarily present in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1469.png",
+    "question": "how is the image oriented?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR10_IM-0002-1001.png",
+    "question": "Are there abnormalities in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1115_IM-0079-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1037_IM-0029-1001.png",
+    "question": "Is there an esophagus in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "What does an air bronchogram sign indicate in this context?",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1050_IM-0038-2001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1104_IM-0071-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1082_IM-0058-1001.png",
+    "question": "Which part of the body does this image belong to?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1128_IM-0084-5001.png",
+    "question": "What color does the brain edema show in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/275.png",
+    "question": "is the finding normal?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1107_IM-0074-1001.png",
+    "question": "What is the organ system visualized?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1016_IM-0013-1001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/680.png",
+    "question": "what kind of image is this?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1000_IM-0003-1001.png",
+    "question": "What color does the right lung show in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1534.png",
+    "question": "mri imaging modality used for this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1617_IM-0399-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1371.png",
+    "question": "does this image show a pneumothorax?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1064_IM-0045-1001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR107_IM-0049-1001.png",
+    "question": "What is the organ system visualized?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1599_IM-0389-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1951_IM-0619-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1038_IM-0029-1001.png",
+    "question": "How many organs are there in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/631.png",
+    "question": "how would you describe the r heart border?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1157.png",
+    "question": "what is the likely sex of this patient?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1096_IM-0066-2001.png",
+    "question": "Which part of the human body is the organ located in the image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1121_IM-0080-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1010_IM-0012-1001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1174_IM-0118-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR197_IM-0631-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1031_IM-0025-4004.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/245.png",
+    "question": "is there blurring of the grey-white matter junction?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/19.png",
+    "question": "what plane is seen?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR111_IM-0076-1001.png",
+    "question": "What organ system is pictured?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/318.png",
+    "question": "how would you describe the r vertebral artery shape?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3117_IM-1465-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/140.png",
+    "question": "is there evidence of mesenteric lymphadenopathy?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1129_IM-0085-1001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1031_IM-0025-4004.png",
+    "question": "Is this sagittal plane?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1001_IM-0004-1001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1117_IM-0079-1001.png",
+    "question": "How many kidneys in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "Describe the radiological features of pulmonary sequestration.",
+    "label": 1,
+    "source": "harder_unknown",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR101_IM-0011-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2739_IM-1193-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1001_IM-0004-1001.png",
+    "question": "Does the picture contain liver?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1085_IM-0059-1001.png",
+    "question": "What modality is used to take this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2972_IM-1363-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1041_IM-0033-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1081_IM-0057-2002.png",
+    "question": "Is this an MRI scan?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1119_IM-0080-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1057_IM-0041-1001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1091_IM-0062-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1040_IM-0032-2001.png",
+    "question": "What disease is/are shown on the left of brain?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1043_IM-0035-0001-0001.png",
+    "question": "Is the liver healthy?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1128_IM-0084-5001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1048_IM-0036-1001.png",
+    "question": "Do the organs in the image exist in the chest?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1131.png",
+    "question": "are there any other cysts in the image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR181_IM-0524-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/647.png",
+    "question": "can you see ventricles?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1135_IM-0091-1001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR108_IM-0056-1001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0010.png",
+    "question": "Is there evidence of cardiomegaly?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1338_IM-0217-1002.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR263_IM-1116-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR141_IM-0260-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1061_IM-0043-1001.png",
+    "question": "Where is the abnormality in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "Can you identify subtle signs of pneumonia in this radiograph?",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1166.png",
+    "question": "is the heart enlarged?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1086_IM-0059-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1298.png",
+    "question": "what plane is demonstrated?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1032_IM-0026-1001-0001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1358.png",
+    "question": "is there fat stranding around the appendix?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1113_IM-0078-1001.png",
+    "question": "What is the function of the main organ in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1021_IM-0017-1001-0001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR19_IM-0583-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1028_IM-0022-1001.png",
+    "question": "Do any of the organs in the picture belong to the respiratory system?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1078_IM-0055-1001.png",
+    "question": "What is the largest organ in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2541_IM-1053-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/436.png",
+    "question": "are both kidneys visible?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1133_IM-0090-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/614.png",
+    "question": "where is the abnormality in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/219.png",
+    "question": "what does the abnormality in this image represent?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2030_IM-0675-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1027_IM-0021-1001.png",
+    "question": "Can cardiomegaly be observed on the heart in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1539.png",
+    "question": "what organ system is shown in the above image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1025_IM-0020-1001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/236.png",
+    "question": "is the celiac trunk visualized and patent?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3395_IM-1639-0001-0001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1135.png",
+    "question": "what are these hypodensities in the liver?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1118_IM-0079-1001.png",
+    "question": "What is the function of the main organ in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/566.png",
+    "question": "what structure in the left basal ganglia is spared?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1830_IM-0537-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2373_IM-0934-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1015_IM-0001-1001.png",
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1079_IM-0056-1001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2122_IM-0747-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2632_IM-1119-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "question": "Can you assess the bone density in this radiograph?",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0000.png",
+    "question": "Is there evidence of cardiomegaly?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1122_IM-0080-1001-0001.png",
+    "question": "What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1106_IM-0073-1001.png",
+    "question": "What is the mr weighting in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1429_IM-0275-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1352_IM-0229-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0005.png",
+    "question": "Is there evidence of pneumothorax?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2139_IM-0760-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1059_IM-0041-1001.png",
+    "question": "Which part of the body does this image belong to?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2620_IM-1109-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1033_IM-0027-2001.png",
+    "question": "What modality is used to take this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1126_IM-0082-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1120_IM-0080-1001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/90.png",
+    "question": "what imaging plane is depicted here?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/16.png",
+    "question": "is the gyral enhancement?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1110_IM-0076-1001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1017_IM-0013-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1049_IM-0036-1001.png",
+    "question": "Which part of the body does this image belong to?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1103_IM-0070-1001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1114_IM-0079-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3147_IM-1480-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1046_IM-0036-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2485_IM-1013-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1365.png",
+    "question": "what region of the brain shows hyperintensity?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR104_IM-0031-0001-0002.png",
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1002_IM-0004-1001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1014_IM-0013-1001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1066_IM-0047-1001.png",
+    "question": "What diseases are included in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2756_IM-1205-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3307_IM-1582-1002001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR163_IM-0410-12012.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1028_IM-0022-1001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR11_IM-0067-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1090_IM-0062-1001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1060_IM-0042-1001.png",
+    "question": "What part of the lung is the pneumonia located in?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1076_IM-0054-1001.png",
+    "question": "Is this image taken via X-Ray?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "What does unilateral hyperlucency suggest in pediatric chest radiographs?",
+    "label": 1,
+    "source": "harder_unknown",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1012_IM-0013-1001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2963_IM-1356-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1119_IM-0080-1001.png",
+    "question": "Does the picture contain brain stem?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0001.png",
+    "question": "Is there evidence of cardiomegaly?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1024_IM-0019-1001.png",
+    "question": "What color does the right lung show in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3337_IM-1598-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1033_IM-0027-2001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1020_IM-0017-1001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/702.png",
+    "question": "is the brain scan normal?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/904.png",
+    "question": "what can cause asymmetrical breasts?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1075_IM-0054-1001.png",
+    "question": "Which organ system is imaged?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1056_IM-0040-1001.png",
+    "question": "Which organ system is imaged?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1072_IM-0052-1001-0001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1114_IM-0079-1001.png",
+    "question": "What is the effect of the dark gray organ on the center of this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1044_IM-0036-1001.png",
+    "question": "Is this a coronal section?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1036_IM-0029-1001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1046_IM-0036-1001.png",
+    "question": "What is the largest organ in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2398_IM-0947-12012.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1012_IM-0013-1001.png",
+    "question": "What is the effect of the black hollow tissue in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1038_IM-0029-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1048_IM-0036-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1899_IM-0582-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/150.png",
+    "question": "what is the outer rim of the mass?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1074_IM-0054-1001.png",
+    "question": "Are there organs in the picture that can deliver food?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1105_IM-0072-1001-0001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1126_IM-0082-1001.png",
+    "question": "In what plane is this image scanned?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1096_IM-0066-2001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1071_IM-0051-2001.png",
+    "question": "Does the brain look abnormal?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1125_IM-0082-1001.png",
+    "question": "What color is the bladder in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR343_IM-1658-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1770.png",
+    "question": "what injury does this brain image suggest?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1440_IM-0284-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/541.png",
+    "question": "what is the density of the lesion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1740_IM-0488-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1479_IM-0311-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1138_IM-0094-1001.png",
+    "question": "Is there femoral head in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1101.png",
+    "question": "is the lesion infiltrating?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1272.png",
+    "question": "was this taken in pa position?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0007.png",
+    "question": "Is there active pulmonary disease?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR102_IM-0016-1001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1880_IM-0569-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1133_IM-0090-1001.png",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1010_IM-0012-1001.png",
+    "question": "What is the effect of the gray organ on the left of this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR10_IM-0002-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR32_IM-1511-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1245_IM-0167-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3281_IM-1562-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR105_IM-0037-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1093_IM-0064-1001.png",
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1039_IM-0030-1002.png",
+    "question": "What is the largest organ in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1008_IM-0009-2001.png",
+    "question": "What color does the right lung show in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3177_IM-1497-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1089_IM-0061-1001.png",
+    "question": "Which organ system is imaged?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1069_IM-0049-1001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3178_IM-1498-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1099_IM-0067-1001.png",
+    "question": "What modality is used to take this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1071_IM-0051-2001.png",
+    "question": "Are these findings consistent with lymphangioleiomyomatosis (LAM)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1102_IM-0069-12012.png",
+    "question": "What is the function of the main organ in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1042_IM-0034-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1109_IM-0076-1001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1109_IM-0076-1001.png",
+    "question": "Are there abnormalities in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1060_IM-0042-1001.png",
+    "question": "Is the pattern consistent with respiratory bronchiolitis-ILD versus desquamative interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1110_IM-0076-1001.png",
+    "question": "Is this image normal?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "What are the imaging characteristics of bronchogenic cysts?",
+    "label": 1,
+    "source": "harder_unknown",
+    "domain": "radiology"
+  },
+  {
+    "question": "What is the significance of mild cardiomegaly with pulmonary vascular congestion?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1081_IM-0057-2002.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1018_IM-0014-5001.png",
+    "question": "Does the picture contain heart?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1120_IM-0080-1001.png",
+    "question": "What is the rightmost organ in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1027_IM-0021-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1762.png",
+    "question": "where is the abnormality?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1017_IM-0013-1001.png",
+    "question": "Where is the brain edema?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1118_IM-0079-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1086_IM-0059-1001.png",
+    "question": "Is there colon in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "Can you identify signs of early interstitial lung disease in this image?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "question": "What does bilateral hilar lymphadenopathy suggest in this context?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1050_IM-0038-2001.png",
+    "question": "What type of medical image is this?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1058_IM-0041-1001.png",
+    "question": "What is the organ system visualized?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/431.png",
+    "question": "is the aorta in view?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1095_IM-0066-1001.png",
+    "question": "Does the patient have any abnormalities?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1362_IM-0235-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1070.png",
+    "question": "is there any inappropriate air collection in subcutaneous tissue?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1070_IM-0050-1001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/500.png",
+    "question": "what part of the cns is this image showing?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1083_IM-0058-1001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2630_IM-1117-1002.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1133.png",
+    "question": "are there multiple masses or just a single big one?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1148.png",
+    "question": "can a pulmonary mass be appreciated?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1057_IM-0041-1001.png",
+    "question": "How many organs are there in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "question": "Is the aortic knob prominent?",
+    "label": 0,
+    "source": "harder_known",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR106_IM-0042-1001.png",
+    "question": "What is the function of the main organ in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1077_IM-0054-1001.png",
+    "question": "Does this chest CT show features of hypersensitivity pneumonitis rather than usual interstitial pneumonia?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1037_IM-0029-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1023_IM-0018-1001.png",
+    "question": "Where is/are the abnormality located?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1003_IM-0005-2002.png",
+    "question": "What modality is used to take this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1131_IM-0088-0001-0001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1105_IM-0072-1001-0001.png",
+    "question": "Which organs/organ in the picture belong to the digestive system?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2254_IM-0846-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/540.png",
+    "question": "describe the density of this lesion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1084_IM-0058-1001.png",
+    "question": "How to prevent the occurrence of the disease on the upper right lobe of brain in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR112_IM-0080-1001.png",
+    "question": "What organ is the gray part on the left of the image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/613.png",
+    "question": "is there atrophy of the brain?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "What does the presence of calcified granulomas suggest?",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1375.png",
+    "question": "which rib is fractured?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1689_IM-0451-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1597.png",
+    "question": "which lobes of the lung contain a higher density of masses?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2980_IM-1370-1002001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1005_IM-0006-1001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2409_IM-0955-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1073_IM-0053-1001.png",
+    "question": "How was this image taken?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1146.png",
+    "question": "is the heart a normal size?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "Can you identify signs of Swyer-James syndrome in this radiograph?",
+    "label": 1,
+    "source": "harder_unknown",
+    "domain": "radiology"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/367.png",
+    "question": "are the findings normal?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/880.png",
+    "question": "is this film taken in a pa modality?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR131_IM-0202-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1077_IM-0054-1001.png",
+    "question": "What organ is the gray part on the left of the image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1089_IM-0061-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/481.png",
+    "question": "which half the cerebellum is the largest mass located?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3459_IM-1679-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1065_IM-0046-1001.png",
+    "question": "Does the picture contain spleen?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1099_IM-0067-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1040_IM-0032-2001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/732.png",
+    "question": "where is the pathology?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1055_IM-0040-1001.png",
+    "question": "Is the liver healthy?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/714.png",
+    "question": "what is abnormal in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "Is there evidence of subtle pneumothorax at the apex?",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1257_IM-0174-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1698.png",
+    "question": "what does the black on an x ray indicate?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1093_IM-0064-1001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1119_IM-0080-1001.png",
+    "question": "Does this radiograph show features of acute fibrinous and organising pneumonia (AFOP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1019_IM-0015-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1101_IM-0068-1001.png",
+    "question": "Can mass be observed on the left lung in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR351_IM-1712-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1101_IM-0068-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1075_IM-0054-1001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1092_IM-0063-1001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3286_IM-1567-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/271.png",
+    "question": "how many ring enhancing lesions can be found in this image?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2031_IM-0676-2002.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1269_IM-0181-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1053_IM-0040-1001.png",
+    "question": "How to prevent the occurrence of the disease on the right lobe of brain in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1040_IM-0032-2001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1112_IM-0078-1001.png",
+    "question": "What is the effect of the center organ in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1098_IM-0067-1001.png",
+    "question": "Are the findings consistent with Swyer-James-MacLeod syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR103_IM-0023-1001.png",
+    "question": "Does this image show Bochdalek hernia in an adult presentation?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/536.png",
+    "question": "is the pathology seen hyperintense or hypointense in nature?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3478_IM-1690-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "question": "Are there any rib fractures visible?",
+    "label": 0,
+    "source": "harder_known",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR101_IM-0011-2001.png",
+    "question": "Is/Are there abnormalities in the patient's right brain lobe?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1843_IM-0546-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR2527_IM-1043-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "question": "Is there cardiomegaly based on the cardiothoracic ratio?",
+    "label": 0,
+    "source": "harder_known",
+    "domain": "radiology"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/330.png",
+    "question": "the enhancing soft tissue mass and fluid seen in the left upper quadrant is consistent with what pathology?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "Describe the diaphragmatic contour in this image.",
+    "label": 1,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1185.png",
+    "question": "do you see a pleural effusion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR106_IM-0042-1001.png",
+    "question": "Are the findings consistent with pulmonary alveolar proteinosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1638.png",
+    "question": "are the branches of the superior mesenteric arteries filled with contrast?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "Is there evidence of mild pulmonary arterial hypertension?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3483_IM-1692-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1112_IM-0078-1001.png",
+    "question": "Does this CT show features of pleuroparenchymal fibroelastosis (PPFE)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1062_IM-0043-1001.png",
+    "question": "Does this image show signs consistent with the 2023 ATS criteria for progressive pulmonary fibrosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "question": "Is the trachea midline?",
+    "label": 0,
+    "source": "harder_known",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR101_IM-0011-2001.png",
+    "question": "Is this pattern consistent with non-specific interstitial pneumonia (NSIP)?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1083_IM-0058-1001.png",
+    "question": "Does the lung exist in this picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR113_IM-0086-1001.png",
+    "question": "Does this show features of yellow nail syndrome with pleural effusion?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR3082_IM-1441-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1009_IM-0010-1001.png",
+    "question": "Does this show evidence of combined pulmonary fibrosis and emphysema syndrome?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1090_IM-0062-1001.png",
+    "question": "What diseases are included in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1111_IM-0077-1001.png",
+    "question": "Is there evidence of amyloidosis affecting the lungs in this image?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1006_IM-0007-1001.png",
+    "question": "What diseases are included in the picture?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "slake"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/1321.png",
+    "question": "does this image show a normal gallbladder?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/543.png",
+    "question": "what is the size of the lesion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "question": "What is the differential diagnosis for this parenchymal opacity?",
+    "label": 0,
+    "source": "ambiguous",
+    "domain": "radiology"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1165_IM-0110-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/204.png",
+    "question": "is the lesion on the right or left side of the brain?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1076_IM-0054-1001.png",
+    "question": "Does this chest CT show tree-in-bud opacities suggesting endobronchial spread of tuberculosis?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1619_IM-0400-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR1861_IM-0558-1001.png",
+    "question": "Describe the key findings in this chest X-ray.",
+    "label": 0,
+    "domain": "radiology",
+    "source": "iu_xray"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0013.png",
+    "question": "Is there evidence of pleural effusion?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data/raw/vqa_rad_images/810.png",
+    "question": "what indicates there is no pleural effusion present?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "vqa_rad"
+  },
+  {
+    "image": "data\\raw\\mimic_cxr\\images\\sample\\sample_0006.png",
+    "question": "Is there evidence of pulmonary oedema?",
+    "label": 0,
+    "domain": "radiology",
+    "source": "mimic_cxr"
+  },
+  {
+    "image": "data\\raw\\iu_xray\\images\\CXR112_IM-0080-1001.png",
+    "question": "Are the findings indicative of pulmonary veno-occlusive disease rather than pulmonary arterial hypertension?",
+    "label": 1,
+    "domain": "radiology",
+    "source": "hard_template"
+  }
+]
