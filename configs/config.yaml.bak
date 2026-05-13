@@ -1,0 +1,106 @@
+# configs/config.yaml
+# Central configuration for Meta-MedRAG
+# Edit paths and hyperparameters here — never hardcode in Python files
+
+# ── Backbone ──────────────────────────────────────────────────────────
+backbone:
+  model_name: "microsoft/llava-med-v1.5-mistral-7b"
+  device: "cuda"                    
+  torch_dtype: "float16"            
+  max_new_tokens: 512
+  temperature: 0.1
+  do_sample: false
+
+# ── Module 1: Meta-cognition probe ────────────────────────────────────
+metacognition:
+  probe_layers: [-2, -5, -8, -11, -15]
+  pca_components: 20
+  theta_low: 0.35
+  theta_high: 0.65
+  probe_checkpoint: "checkpoints/meco_probe_v2.pkl"    
+  contrastive_data_path: "data/processed/contrastive_pairs_v2.json"  
+  datasets_for_pairs:
+    - "data/raw/iu_xray/splits.json"
+    - "data/raw/vqa_rad/splits.json"
+    - "data/raw/slake/splits.json"
+
+# ── Module 2: Adaptive retrieval ──────────────────────────────────────
+retrieval:
+  biomed_clip_model: "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224"
+  vector_store_dir: "data/vector_stores"
+  similarity_ratio_threshold: 0.85
+  max_k: 5
+  min_k: 1
+  embedding_dim: 512
+  domains:
+    - radiology
+    - pathology
+    - ophthalmology
+
+# ── Module 3: DPO alignment ───────────────────────────────────────────
+alignment:
+  base_model: "microsoft/llava-med-v1.5-mistral-7b"
+  output_dir: "checkpoints/dpo_aligned"
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  lora_target_modules:
+    - "q_proj"
+    - "v_proj"
+    - "k_proj"
+    - "o_proj"
+  dpo_beta: 0.1
+  learning_rate: 5.0e-5
+  num_train_epochs: 3
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8
+  warmup_ratio: 0.1
+  max_length: 1024
+  fp16: true
+  preference_data_path: "data/preference_pairs/dpo_dataset.json"
+
+# ── GPT-4o (preference pair generation) ──────────────────────────────
+openai:
+  model: "gpt-4o"
+  max_tokens: 1024
+  temperature: 0.7
+  n_pairs_per_report: 3
+
+# ── Datasets ──────────────────────────────────────────────────────────
+datasets:
+  mimic_cxr:
+    image_dir: "data/raw/mimic_cxr/images"
+    report_dir: "data/raw/mimic_cxr/reports"
+    split_file: "data/raw/mimic_cxr/splits.json"
+  iu_xray:
+    image_dir: "data/raw/iu_xray/images"
+    report_dir: "data/raw/iu_xray/reports"
+    split_file: "data/raw/iu_xray/splits.json"
+  vqa_rad:                                          
+    image_dir: "data/raw/vqa_rad/images"
+    split_file: "data/raw/vqa_rad/splits.json"
+  slake:                                             
+    image_dir: "data/raw/slake/images"
+    split_file: "data/raw/slake/splits.json"
+
+# ── Evaluation ────────────────────────────────────────────────────────
+evaluation:
+  results_dir: "experiments/results"
+  ablation_dir: "experiments/ablations"              
+  metrics:
+    vqa: ["accuracy", "f1"]
+    report_gen: ["bleu4", "rouge_l", "meteor"]
+  batch_size: 8
+  n_test_samples: 50                                 
+
+# ── Colab paths (override when running on Colab) ─────────────────────
+colab:
+  repo_dir: "/content/meta_medrag"
+  drive_dir: "/content/drive/MyDrive/meta_medrag_results"
+  checkpoints_dir: "/content/meta_medrag/checkpoints"
+
+# ── Logging ───────────────────────────────────────────────────────────
+logging:
+  level: "INFO"
+  log_dir: "logs"
+  log_file: "meta_medrag.log"

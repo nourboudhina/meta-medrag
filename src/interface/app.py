@@ -118,10 +118,16 @@ def run_inference(image, question: str):
 
 
 # ── Example cases ──────────────────────────────────────────────────────
+import os as _os
+_IMG_DIR = _os.environ.get(
+    "MEDRAG_DATA_DIR",
+    "data/raw/iu_xray/images"
+)
+
 EXAMPLES = [
-    ["data/raw/iu_xray/images/CXR1000_IM-0003-1001.png", "Is there cardiomegaly?"],
-    ["data/raw/iu_xray/images/CXR1000_IM-0003-2001.png", "Are the lung fields clear?"],
-    ["data/raw/iu_xray/images/CXR1000_IM-0003-3001.png", "Is there pleural effusion?"],
+    [f"{_IMG_DIR}/CXR1000_IM-0003-1001.png", "Is there cardiomegaly?"],
+    [f"{_IMG_DIR}/CXR1000_IM-0003-2001.png", "Are the lung fields clear?"],
+    [f"{_IMG_DIR}/CXR1000_IM-0003-3001.png", "Is there pleural effusion?"],
 ]
 
 
@@ -170,12 +176,8 @@ def build_interface() -> gr.Blocks:
 
                 gr.Markdown("### Examples")
                 gr.Examples(
-                    examples= [
-                        ["data/raw/iu_xray/images/CXR1000_IM-0003-1001.png", "Is there cardiomegaly?"],
-                        ["data/raw/iu_xray/images/CXR1000_IM-0003-2001.png", "Are the lung fields clear?"],
-                        ["data/raw/iu_xray/images/CXR1000_IM-0003-3001.png", "Is there pleural effusion?"],
-                    ],
-                    inputs=[image_input, question_input],
+                   examples=EXAMPLES,
+                   inputs=[image_input, question_input],
                 )
 
             # Right column — outputs

@@ -130,21 +130,32 @@ def compute_meteor(
     references:  List[str],
 ) -> float:
     """
-    Compute METEOR score using the HuggingFace evaluate library.
-
-    Args:
-        predictions: list of generated reports
-        references:  list of reference reports
-
-    Returns:
-        METEOR score ∈ [0, 1]
+    Compute METEOR score — tries evaluate library first, falls back to nltk.
     """
+    # Attempt 1: HuggingFace evaluate
     try:
+        import evaluate
         meteor = evaluate.load("meteor")
         result = meteor.compute(predictions=predictions, references=references)
         return float(result["meteor"])
+    except Exception:
+        pass
+
+    # Attempt 2: nltk fallback (always available)
+    try:
+        import nltk
+        nltk.download("wordnet", quiet=True)
+        nltk.download("omw-1.4", quiet=True)
+        from nltk.translate.meteor_score import meteor_score as nltk_meteor
+        from nltk import word_tokenize
+        scores = [
+            nltk_meteor([word_tokenize(r.lower())], word_tokenize(p.lower()))
+            for p, r in zip(predictions, references)
+            if p.strip() and r.strip()
+        ]
+        return float(sum(scores) / len(scores)) if scores else 0.0
     except Exception as e:
-        logger.warning(f"METEOR computation failed: {e}")
+        logger.warning(f"METEOR failed: {e} — returning 0.0")
         return 0.0
 
 
