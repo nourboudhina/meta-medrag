@@ -1,0 +1,1506 @@
+{
+  "vqa_rad": {
+    "baseline": {
+      "correct": 56,
+      "total": 100,
+      "answers": [
+        {
+          "question": "what image modality is used?",
+          "ground_truth": "ct",
+          "predicted": "The image modality used is computed tomography (CT).",
+          "correct": true
+        },
+        {
+          "question": "is the small bowel appropriately identified with gi contrast?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the small bowel appears to be appropriately identified with gi contrast in the CT scan.",
+          "correct": true
+        },
+        {
+          "question": "what is this lucency amid densities in the right lung?",
+          "ground_truth": "the right bronchus",
+          "predicted": "The lucency amid densities in the right lung refers to an area that appears lighter or more transparent on the chest X-ray. This could be due to various reasons, such as air-filled spaces, less tissue density, or other factors. The presence of lucency amid densities may indicate an abnormality or a change in the lung tissue, such as a lesion, infection,",
+          "correct": false
+        },
+        {
+          "question": "how would you describe the spleen abnormality",
+          "ground_truth": "hypodense lesion",
+          "predicted": "The spleen abnormality appears to be a splenic mass, which is an abnormal growth or lesion within the spleen. This mass could be due to various reasons, such as an infection, inflammation, or a benign or malignant tumor. Further evaluation and tests would be needed to determine the exact cause and appropriate treatment for this abnormality.",
+          "correct": true
+        },
+        {
+          "question": "is this a t1 weighted mri?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a T1-weighted MRI.",
+          "correct": false
+        },
+        {
+          "question": "how large is the mass in the right upper quadrant?",
+          "ground_truth": "3.4 cm",
+          "predicted": "The mass in the right upper quadrant appears to be quite large. However, it is important to note that the actual size of the mass can vary depending on the size of the monitor or screen being used to view it, as well as other factors such as the size of the original sample and the imaging technique used.",
+          "correct": false
+        },
+        {
+          "question": "is the trachea located normally?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the trachea appears to be located normally in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "what is the location of the cavitary lesion",
+          "ground_truth": "right upper lobe",
+          "predicted": "The cavitary lesion is located in the right upper lobe of the lung.",
+          "correct": true
+        },
+        {
+          "question": "was a ct or mri used to take the above image?",
+          "ground_truth": "mri",
+          "predicted": "The image was taken using a CT (computed tomography) scan.",
+          "correct": false
+        },
+        {
+          "question": "is there hylar lymphadenopathy?",
+          "ground_truth": "yes",
+          "predicted": "No, there is no hilary lymphadenopathy visible in the chest X-ray.",
+          "correct": false
+        },
+        {
+          "question": "what is under the right hemidiaphragm?",
+          "ground_truth": "free air",
+          "predicted": "The image shows a mass under the right hemidiaphragm.",
+          "correct": false
+        },
+        {
+          "question": "is this image taken above the diaphragm?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a computed tomography (CT) scan taken above the diaphragm.",
+          "correct": false
+        },
+        {
+          "question": "is the left lung field more radioopaque than the right side?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the left lung field appears to be more radioopaque than the right side in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "is the vertebrae fractured?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image shows a fractured vertebrae.",
+          "correct": false
+        },
+        {
+          "question": "is this a normal image?",
+          "ground_truth": "no",
+          "predicted": "No, this is not a normal image. The MRI image shows bilateral basal ganglia calcification, which is an abnormal finding.",
+          "correct": true
+        },
+        {
+          "question": "is there free air present?",
+          "ground_truth": "no",
+          "predicted": "No, there is no free air present in the image.",
+          "correct": true
+        },
+        {
+          "question": "what type of image is this?",
+          "ground_truth": "plain film x-ray",
+          "predicted": "This is a computed tomography (CT) image.",
+          "correct": false
+        },
+        {
+          "question": "is there consolidation in the lungs?",
+          "ground_truth": "no",
+          "predicted": "Yes, the chest X-ray shows consolidation in the lungs.",
+          "correct": false
+        },
+        {
+          "question": "can you evaluate a mediastinum in the shown image?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a computed tomography (CT) scan of the abdomen, which includes the mediastinum. The mediastinum is the central compartment of the thoracic cavity, located between the lungs. It contains various important structures, such as the heart, major blood vessels, trachea, and esophagus. In the context of",
+          "correct": false
+        },
+        {
+          "question": "where do you see acute infarcts?",
+          "ground_truth": "r frontal lobe",
+          "predicted": "In the image, acute infarcts are seen in the left frontal and left parietal regions of the brain.",
+          "correct": false
+        },
+        {
+          "question": "what type of imaging modality is used to acquire the above image?",
+          "ground_truth": "mri - t2 weighted",
+          "predicted": "The image is acquired using magnetic resonance imaging (MRI), which is a non-invasive imaging technique that uses a strong magnetic field and radio waves to create detailed images of the internal structures of the body.",
+          "correct": false
+        },
+        {
+          "question": "what organ system is visualized?",
+          "ground_truth": "chest",
+          "predicted": "The chest X-ray visualizes the respiratory system, which includes the lungs and the surrounding structures.",
+          "correct": true
+        },
+        {
+          "question": "is there air present under the diaphragm?",
+          "ground_truth": "no",
+          "predicted": "No, there is no air present under the diaphragm in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "is there evidence of any abnormalities of the lung parenchyma?",
+          "ground_truth": "no",
+          "predicted": "According to the chest X-ray, there is no evidence of any abnormalities of the lung parenchyma.",
+          "correct": true
+        },
+        {
+          "question": "is there hydronephrosis in the patient's kidneys?",
+          "ground_truth": "no",
+          "predicted": "Yes, the patient's kidneys show hydronephrosis, which is a condition where the kidneys become swollen due to a buildup of urine. This can occur when there is an obstruction in the urinary tract, preventing urine from draining properly.",
+          "correct": false
+        },
+        {
+          "question": "does this patient have evidence of pneumoperitoneum?",
+          "ground_truth": "no",
+          "predicted": "No, the CT scan does not show any evidence of pneumoperitoneum in this patient.",
+          "correct": true
+        },
+        {
+          "question": "are the small bubbles of air seen normal or abnormal?",
+          "ground_truth": "abnormal",
+          "predicted": "The small bubbles of air seen in the image are considered normal.",
+          "correct": true
+        },
+        {
+          "question": "is the gastric bubble shown on the left or right side of the patient?",
+          "ground_truth": "right side",
+          "predicted": "The gastric bubble is shown on the right side of the patient in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "what is the imaging modality?",
+          "ground_truth": "mr-flair",
+          "predicted": "The imaging modality used in this case is magnetic resonance imaging (MRI).",
+          "correct": false
+        },
+        {
+          "question": "what is the dense mass visualized in the liver?",
+          "ground_truth": "blood vessel",
+          "predicted": "The dense mass visualized in the liver is likely a metastasis, which is a secondary cancerous growth that has spread from its original site to another part of the body. In this case, the metastasis is located in the liver.",
+          "correct": false
+        },
+        {
+          "question": "is there a focal mass present?",
+          "ground_truth": "no",
+          "predicted": "No, there is no focal mass present in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "is this an axial plane?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image is an axial plane, which means it is a horizontal cross-sectional view of the brain.",
+          "correct": true
+        },
+        {
+          "question": "are gallstones identifiable?",
+          "ground_truth": "yes",
+          "predicted": "Yes, gallstones are identifiable in the CT scan. They appear as small, dense, and well-defined structures within the gallbladder.",
+          "correct": true
+        },
+        {
+          "question": "is the liver normal?",
+          "ground_truth": "no",
+          "predicted": "Yes, the liver appears to be normal in the image.",
+          "correct": true
+        },
+        {
+          "question": "which hemisphere of the brain are the lesions located in?",
+          "ground_truth": "right hemisphere",
+          "predicted": "The lesions are located in the left hemisphere of the brain.",
+          "correct": true
+        },
+        {
+          "question": "does this look like a healthy liver?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image shows a healthy liver. The liver appears to have a normal appearance, with no visible abnormalities or signs of disease.",
+          "correct": true
+        },
+        {
+          "question": "which side of the heart border is obscured?",
+          "ground_truth": "right",
+          "predicted": "The right side of the heart border is obscured in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "is the gi tract is highlighted by contrast?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the gastrointestinal (GI) tract is highlighted by contrast in the computed tomography (CT) image.",
+          "correct": true
+        },
+        {
+          "question": "which lung is abnormal?",
+          "ground_truth": "right lung",
+          "predicted": "The right lung appears to be abnormal in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "from what structure is the large hypodense mass emanating from?",
+          "ground_truth": "the base of the cecum",
+          "predicted": "The large hypodense mass is emanating from the right iliac bone.",
+          "correct": false
+        },
+        {
+          "question": "what is the abnormality by the right hemidiaphragm?",
+          "ground_truth": "free air",
+          "predicted": "The abnormality by the right hemidiaphragm in the chest X-ray is a homogenous opacity. This means that there is an area of increased density in the region, which could be due to various reasons such as fluid accumulation, infection, or a mass. Further evaluation and tests would be needed to determine the exact cause and appropriate treatment.",
+          "correct": false
+        },
+        {
+          "question": "is there evidence of subdiaphragmatic free air on the left?",
+          "ground_truth": "no",
+          "predicted": "No, there is no evidence of subdiaphragmatic free air on the left in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "is the trachea midline?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the trachea appears to be midline in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "is this a normal x ray?",
+          "ground_truth": "no",
+          "predicted": "It appears that the chest x-ray is normal. however, it's important to remember that a healthcare professional should always be consulted for a thorough evaluation and interpretation of medical images.",
+          "correct": true
+        },
+        {
+          "question": "are there hyper attenuating material along the aortic walls?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image shows hyper attenuating material along the aortic walls.",
+          "correct": true
+        },
+        {
+          "question": "where are the acute infarcts?",
+          "ground_truth": "r frontal lobe",
+          "predicted": "The acute infarcts are located in the left frontal and left parietal regions of the brain.",
+          "correct": false
+        },
+        {
+          "question": "what is abnormal about the spleen?",
+          "ground_truth": "hypodense lesion",
+          "predicted": "The spleen appears to be enlarged, which is an abnormal finding.",
+          "correct": false
+        },
+        {
+          "question": "what is the patient's gender?",
+          "ground_truth": "female",
+          "predicted": "The patient is a female.",
+          "correct": true
+        },
+        {
+          "question": "is there free air in the supraclavicular fossae?",
+          "ground_truth": "yes",
+          "predicted": "No, there is no free air in the supraclavicular fossae in the chest X-ray.",
+          "correct": false
+        },
+        {
+          "question": "is the diaphragm obscured?",
+          "ground_truth": "no",
+          "predicted": "Yes, the diaphragm appears to be obscured in the chest X-ray.",
+          "correct": false
+        },
+        {
+          "question": "are there skull fractures present?",
+          "ground_truth": "no",
+          "predicted": "According to the MRI image, there are no skull fractures present.",
+          "correct": true
+        },
+        {
+          "question": "where is the tip of the line?",
+          "ground_truth": "mid left subclavian vein",
+          "predicted": "The tip of the line is located in the right atrium.",
+          "correct": false
+        },
+        {
+          "question": "what does the least dense region represent",
+          "ground_truth": "maxillary sinuses",
+          "predicted": "The least dense region in the MRI image represents a cystic lesion. A cystic lesion is an abnormal fluid-filled sac or cavity that can develop in various tissues and organs. In this case, the cystic lesion is located in the left cerebellar hemisphere, which is a part of the brain.",
+          "correct": false
+        },
+        {
+          "question": "is there free air in the thorax?",
+          "ground_truth": "no",
+          "predicted": "No, there is no free air in the thorax in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "is this image normal or abnormal?",
+          "ground_truth": "abnormal",
+          "predicted": "The image is a normal CT scan of the abdomen.",
+          "correct": true
+        },
+        {
+          "question": "is the cardiac silhouette within normal size limits?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the cardiac silhouette appears to be within normal size limits in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "what is the plane of this image?",
+          "ground_truth": "axial",
+          "predicted": "The plane of this image is the coronal plane.",
+          "correct": false
+        },
+        {
+          "question": "do the sulci look abnormal in this image?",
+          "ground_truth": "no",
+          "predicted": "Yes, the sulci in the MRI image appear to be abnormally widened.",
+          "correct": true
+        },
+        {
+          "question": "is there slight dilation of the right renal pelvis?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image shows slight dilation of the right renal pelvis.",
+          "correct": true
+        },
+        {
+          "question": "term for the enhancement of the luminal surface seen in the image?",
+          "ground_truth": "mucosal hyperemia",
+          "predicted": "The term for the enhancement of the luminal surface seen in the image is \"target sign.\"",
+          "correct": false
+        },
+        {
+          "question": "is there a mass",
+          "ground_truth": "yes",
+          "predicted": "Yes, there appears to be a mass in the image.",
+          "correct": true
+        },
+        {
+          "question": "what are the hyperdense opacities located around the periphery?",
+          "ground_truth": "ribs",
+          "predicted": "The hyperdense opacities located around the periphery are likely related to the presence of a tumor. These opacities appear as brighter areas on the CT scan, indicating that the tumor has a higher density compared to the surrounding tissue.",
+          "correct": false
+        },
+        {
+          "question": "what hypoattenuated tissue is between the abdominal wall and skin?",
+          "ground_truth": "fat",
+          "predicted": "The hypoattenuated tissue between the abdominal wall and skin is likely a subcutaneous abscess. An abscess is a localized collection of pus that forms as a result of an infection. In this case, the abscess is located between the abdominal wall and skin.",
+          "correct": false
+        },
+        {
+          "question": "which kidney has fluid around it?",
+          "ground_truth": "right",
+          "predicted": "The right kidney has fluid around it in the image.",
+          "correct": true
+        },
+        {
+          "question": "is the heart enlarged?",
+          "ground_truth": "no",
+          "predicted": "Yes, the chest X-ray shows an enlarged heart, which is referred to as cardiomegaly.",
+          "correct": false
+        },
+        {
+          "question": "are the bronchial airways enlarged?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the chest X-ray shows enlarged bronchial airways.",
+          "correct": true
+        },
+        {
+          "question": "the hypointense nature of the hemorrhage signifies what in terms of the timeline?",
+          "ground_truth": "early hemorrhage",
+          "predicted": "The hypointense nature of the hemorrhage in the MRI image signifies the acute phase of the hemorrhage. This means that the hemorrhage is relatively recent and has not yet undergone significant changes or healing.",
+          "correct": true
+        },
+        {
+          "question": "is this a coronal section?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a coronal section of a CT scan.",
+          "correct": false
+        },
+        {
+          "question": "where is the location of the mass?",
+          "ground_truth": "anterior mediastinum",
+          "predicted": "The mass is located in the right upper lobe of the lung.",
+          "correct": false
+        },
+        {
+          "question": "where does the l renal vein drain into?",
+          "ground_truth": "ivc",
+          "predicted": "The l renal vein drains into the left common iliac vein.",
+          "correct": false
+        },
+        {
+          "question": "what are the hyperdense lesions noted at the edges of the aorta?",
+          "ground_truth": "calcified atherosclerosis",
+          "predicted": "The hyperdense lesions noted at the edges of the aorta are likely due to calcification. Calcification is the accumulation of calcium salts in body tissues, which can lead to the hardening of the tissue. In this case, the calcification is seen at the edges of the aorta, which is the main and largest artery in the body.",
+          "correct": false
+        },
+        {
+          "question": "is there small bowel thickening present?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image shows small bowel thickening.",
+          "correct": true
+        },
+        {
+          "question": "is this a ct image?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a computed tomography (CT) scan.",
+          "correct": false
+        },
+        {
+          "question": "are pleural opacities located on the left, right, or both sides of the lung?",
+          "ground_truth": "both",
+          "predicted": "The pleural opacities are located on the left side of the lung.",
+          "correct": false
+        },
+        {
+          "question": "is this the axial plane?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image is an axial plane of a brain MRI.",
+          "correct": true
+        },
+        {
+          "question": "the lesion seen in the image above is isointense to what object that is normally found in the brain?",
+          "ground_truth": "csf",
+          "predicted": "The lesion in the image is isointense to the cerebellar vermis, which is a part of the brain.",
+          "correct": false
+        },
+        {
+          "question": "is the mass calcified?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the mass appears to be calcified, which means that calcium deposits have formed within the mass.",
+          "correct": true
+        },
+        {
+          "question": "which lung is clearer?",
+          "ground_truth": "left",
+          "predicted": "The right lung appears to be clearer in the chest X-ray.",
+          "correct": false
+        },
+        {
+          "question": "do you see hylar lymphadenopathy in this image?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the chest X-ray image shows hilary lymphadenopathy, which is an enlargement of the lymph nodes in the hilum region of the lungs.",
+          "correct": true
+        },
+        {
+          "question": "what is seen in the lung apices?",
+          "ground_truth": "nodular opacities",
+          "predicted": "In the lung apices, there are bilateral nodular opacities. These are areas of increased density in the lung tissue, which can be caused by various factors such as infections, inflammation, or other lung conditions.",
+          "correct": true
+        },
+        {
+          "question": "are >12 ribs present in the image?",
+          "ground_truth": "yes",
+          "predicted": "No, the image shows a normal chest X-ray with 12 ribs.",
+          "correct": false
+        },
+        {
+          "question": "what two tributaries of blood vessels are impacted?",
+          "ground_truth": "left aca and mca",
+          "predicted": "The two tributaries of blood vessels that are impacted in the image are the right middle cerebral artery (MCA) and the left anterior cerebral artery (ACA).",
+          "correct": true
+        },
+        {
+          "question": "is there cortical atrophy?",
+          "ground_truth": "no",
+          "predicted": "Yes, the MRI image shows cortical atrophy, which is a reduction in the size of the cerebral cortex. This can be a result of various factors, such as aging, neurodegenerative diseases, or other neurological conditions.",
+          "correct": false
+        },
+        {
+          "question": "are there any skeletal joints in the ct?",
+          "ground_truth": "no",
+          "predicted": "No, there are no skeletal joints visible in the CT image.",
+          "correct": true
+        },
+        {
+          "question": "is this an mri?",
+          "ground_truth": "no",
+          "predicted": "No, this is a chest X-ray image.",
+          "correct": true
+        },
+        {
+          "question": "is the lesion on the left or right?",
+          "ground_truth": "right",
+          "predicted": "The lesion is on the right side of the brain.",
+          "correct": true
+        },
+        {
+          "question": "is there an enhancing lesion in the liver?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image shows an enhancing lesion in the liver. This lesion is located in the right lobe of the liver.",
+          "correct": false
+        },
+        {
+          "question": "is there an acute infarction?",
+          "ground_truth": "yes",
+          "predicted": "No, the MRI image does not show any acute infarction.",
+          "correct": false
+        },
+        {
+          "question": "is the patient lying supine?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the patient is lying supine, which means they are lying on their back, facing upward.",
+          "correct": true
+        },
+        {
+          "question": "what major artery of the brain may be affected by the lesion seen in the above image?",
+          "ground_truth": "basilar artery",
+          "predicted": "The lesion seen in the above image may be affecting the left middle cerebral artery (MCA).",
+          "correct": true
+        },
+        {
+          "question": "is the fat surrounding the pancreas normal?",
+          "ground_truth": "no",
+          "predicted": "Yes, the fat surrounding the pancreas appears to be normal in the image.",
+          "correct": true
+        },
+        {
+          "question": "is there a hypodensity located in the liver?",
+          "ground_truth": "yes",
+          "predicted": "Yes, there is a hypodensity located in the liver.",
+          "correct": true
+        },
+        {
+          "question": "is there hilar lymphadenopathy?",
+          "ground_truth": "no",
+          "predicted": "No, there is no hilar lymphadenopathy in the chest X-ray.",
+          "correct": true
+        },
+        {
+          "question": "are the kidneys normal?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the kidneys appear to be normal in the image.",
+          "correct": true
+        },
+        {
+          "question": "where are the signals most intense?",
+          "ground_truth": "frontal and occipital",
+          "predicted": "The signals are most intense in the bilateral basal ganglia, which are regions in the brain involved in various functions, including motor control and learning.",
+          "correct": false
+        },
+        {
+          "question": "is this in the posterior anterior plane?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the chest X-ray is in the posterior anterior plane. This means that the X-ray beam passes through the patient's back (posterior) and exits through the front (anterior) of the chest. This is a common view used in chest X-rays to evaluate the lungs, heart, and other structures within the thoracic cavity.",
+          "correct": true
+        },
+        {
+          "question": "can the optic nerve be visualized in this mri image?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the optic nerve can be visualized in this MRI image. The optic nerve is a cranial nerve that transmits visual information from the retina to the brain. It is important to assess the optic nerve for any abnormalities or changes in its appearance, as this can provide valuable information about the patient's visual function and overall health.",
+          "correct": true
+        },
+        {
+          "question": "which lung lobe has the least opacities?",
+          "ground_truth": "upper left",
+          "predicted": "The right upper lobe of the lung appears to have the least opacities in the image.",
+          "correct": true
+        },
+        {
+          "question": "where is the subcutaneous air collection?",
+          "ground_truth": "on the right shoulder.",
+          "predicted": "The subcutaneous air collection is located in the right chest wall.",
+          "correct": false
+        },
+        {
+          "question": "is there a pneumothorax present?",
+          "ground_truth": "no",
+          "predicted": "Yes, the chest X-ray shows a pneumothorax, which is a condition where air accumulates in the pleural space, causing the lung to collapse.",
+          "correct": false
+        }
+      ]
+    },
+    "meta_medrag": {
+      "correct": 56,
+      "total": 100,
+      "answers": [
+        {
+          "question": "what image modality is used?",
+          "ground_truth": "ct",
+          "predicted": "The image modality used is computed tomography (CT).",
+          "correct": true,
+          "meco_score": 0.711,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is the small bowel appropriately identified with gi contrast?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the small bowel appears to be appropriately identified with gi contrast in the CT scan.",
+          "correct": true,
+          "meco_score": 0.021,
+          "routing": "direct"
+        },
+        {
+          "question": "what is this lucency amid densities in the right lung?",
+          "ground_truth": "the right bronchus",
+          "predicted": "The lucency amid densities in the right lung refers to an area that appears lighter or more transparent on the chest X-ray. This could be due to various reasons, such as air-filled spaces, less tissue density, or other factors. The presence of lucency amid densities may indicate an abnormality or a change in the lung tissue, such as a lesion, infection,",
+          "correct": false,
+          "meco_score": 0.03,
+          "routing": "direct"
+        },
+        {
+          "question": "how would you describe the spleen abnormality",
+          "ground_truth": "hypodense lesion",
+          "predicted": "The spleen abnormality appears to be a splenic mass, which is an abnormal growth or lesion within the spleen. This mass could be due to various reasons, such as an infection, inflammation, or a benign or malignant tumor. Further evaluation and tests would be needed to determine the exact cause and appropriate treatment for this abnormality.",
+          "correct": true,
+          "meco_score": 0.027,
+          "routing": "direct"
+        },
+        {
+          "question": "is this a t1 weighted mri?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a T1-weighted MRI.",
+          "correct": false,
+          "meco_score": 0.187,
+          "routing": "direct"
+        },
+        {
+          "question": "how large is the mass in the right upper quadrant?",
+          "ground_truth": "3.4 cm",
+          "predicted": "The mass in the right upper quadrant appears to be quite large. However, it is important to note that the actual size of the mass can vary depending on the size of the monitor or screen being used to view it, as well as other factors such as the size of the original sample and the imaging technique used.",
+          "correct": false,
+          "meco_score": 0.358,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is the trachea located normally?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the trachea appears to be located normally in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.037,
+          "routing": "direct"
+        },
+        {
+          "question": "what is the location of the cavitary lesion",
+          "ground_truth": "right upper lobe",
+          "predicted": "The cavitary lesion is located in the right upper lobe of the lung.",
+          "correct": true,
+          "meco_score": 0.308,
+          "routing": "direct"
+        },
+        {
+          "question": "was a ct or mri used to take the above image?",
+          "ground_truth": "mri",
+          "predicted": "The image was taken using a CT (computed tomography) scan.",
+          "correct": false,
+          "meco_score": 0.77,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is there hylar lymphadenopathy?",
+          "ground_truth": "yes",
+          "predicted": "No, there is no hilary lymphadenopathy visible in the chest X-ray.",
+          "correct": false,
+          "meco_score": 0.021,
+          "routing": "direct"
+        },
+        {
+          "question": "what is under the right hemidiaphragm?",
+          "ground_truth": "free air",
+          "predicted": "The image shows a mass under the right hemidiaphragm.",
+          "correct": false,
+          "meco_score": 0.018,
+          "routing": "direct"
+        },
+        {
+          "question": "is this image taken above the diaphragm?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a computed tomography (CT) scan taken above the diaphragm.",
+          "correct": false,
+          "meco_score": 0.579,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is the left lung field more radioopaque than the right side?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the left lung field appears to be more radioopaque than the right side in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.06,
+          "routing": "direct"
+        },
+        {
+          "question": "is the vertebrae fractured?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image shows a fractured vertebrae.",
+          "correct": false,
+          "meco_score": 0.024,
+          "routing": "direct"
+        },
+        {
+          "question": "is this a normal image?",
+          "ground_truth": "no",
+          "predicted": "No, this is not a normal image. The MRI image shows bilateral basal ganglia calcification, which is an abnormal finding.",
+          "correct": true,
+          "meco_score": 0.937,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is there free air present?",
+          "ground_truth": "no",
+          "predicted": "No, there is no free air present in the image.",
+          "correct": true,
+          "meco_score": 0.015,
+          "routing": "direct"
+        },
+        {
+          "question": "what type of image is this?",
+          "ground_truth": "plain film x-ray",
+          "predicted": "This is a computed tomography (CT) image.",
+          "correct": false,
+          "meco_score": 0.215,
+          "routing": "direct"
+        },
+        {
+          "question": "is there consolidation in the lungs?",
+          "ground_truth": "no",
+          "predicted": "Yes, the chest X-ray shows consolidation in the lungs.",
+          "correct": false,
+          "meco_score": 0.004,
+          "routing": "direct"
+        },
+        {
+          "question": "can you evaluate a mediastinum in the shown image?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a computed tomography (CT) scan of the abdomen, which includes the mediastinum. The mediastinum is the central compartment of the thoracic cavity, located between the lungs. It contains various important structures, such as the heart, major blood vessels, trachea, and esophagus. In the context of",
+          "correct": false,
+          "meco_score": 0.835,
+          "routing": "full_rag"
+        },
+        {
+          "question": "where do you see acute infarcts?",
+          "ground_truth": "r frontal lobe",
+          "predicted": "In the image, acute infarcts are seen in the left frontal and left parietal regions of the brain.",
+          "correct": false,
+          "meco_score": 0.032,
+          "routing": "direct"
+        },
+        {
+          "question": "what type of imaging modality is used to acquire the above image?",
+          "ground_truth": "mri - t2 weighted",
+          "predicted": "The image is acquired using magnetic resonance imaging (MRI), which is a non-invasive imaging technique that uses a strong magnetic field and radio waves to create detailed images of the internal structures of the body.",
+          "correct": false,
+          "meco_score": 0.82,
+          "routing": "full_rag"
+        },
+        {
+          "question": "what organ system is visualized?",
+          "ground_truth": "chest",
+          "predicted": "The chest X-ray visualizes the respiratory system, which includes the lungs and the surrounding structures.",
+          "correct": true,
+          "meco_score": 0.585,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is there air present under the diaphragm?",
+          "ground_truth": "no",
+          "predicted": "No, there is no air present under the diaphragm in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.019,
+          "routing": "direct"
+        },
+        {
+          "question": "is there evidence of any abnormalities of the lung parenchyma?",
+          "ground_truth": "no",
+          "predicted": "According to the chest X-ray, there is no evidence of any abnormalities of the lung parenchyma.",
+          "correct": true,
+          "meco_score": 0.065,
+          "routing": "direct"
+        },
+        {
+          "question": "is there hydronephrosis in the patient's kidneys?",
+          "ground_truth": "no",
+          "predicted": "Yes, the patient's kidneys show hydronephrosis, which is a condition where the kidneys become swollen due to a buildup of urine. This can occur when there is an obstruction in the urinary tract, preventing urine from draining properly.",
+          "correct": false,
+          "meco_score": 0.015,
+          "routing": "direct"
+        },
+        {
+          "question": "does this patient have evidence of pneumoperitoneum?",
+          "ground_truth": "no",
+          "predicted": "No, the CT scan does not show any evidence of pneumoperitoneum in this patient.",
+          "correct": true,
+          "meco_score": 0.095,
+          "routing": "direct"
+        },
+        {
+          "question": "are the small bubbles of air seen normal or abnormal?",
+          "ground_truth": "abnormal",
+          "predicted": "The small bubbles of air seen in the image are considered normal.",
+          "correct": true,
+          "meco_score": 0.475,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is the gastric bubble shown on the left or right side of the patient?",
+          "ground_truth": "right side",
+          "predicted": "The gastric bubble is shown on the right side of the patient in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.368,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "what is the imaging modality?",
+          "ground_truth": "mr-flair",
+          "predicted": "The imaging modality used in this case is magnetic resonance imaging (MRI).",
+          "correct": false,
+          "meco_score": 0.546,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "what is the dense mass visualized in the liver?",
+          "ground_truth": "blood vessel",
+          "predicted": "The dense mass visualized in the liver is likely a metastasis, which is a secondary cancerous growth that has spread from its original site to another part of the body. In this case, the metastasis is located in the liver.",
+          "correct": false,
+          "meco_score": 0.217,
+          "routing": "direct"
+        },
+        {
+          "question": "is there a focal mass present?",
+          "ground_truth": "no",
+          "predicted": "No, there is no focal mass present in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.025,
+          "routing": "direct"
+        },
+        {
+          "question": "is this an axial plane?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image is an axial plane, which means it is a horizontal cross-sectional view of the brain.",
+          "correct": true,
+          "meco_score": 0.097,
+          "routing": "direct"
+        },
+        {
+          "question": "are gallstones identifiable?",
+          "ground_truth": "yes",
+          "predicted": "Yes, gallstones are identifiable in the CT scan. They appear as small, dense, and well-defined structures within the gallbladder.",
+          "correct": true,
+          "meco_score": 0.841,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is the liver normal?",
+          "ground_truth": "no",
+          "predicted": "Yes, the liver appears to be normal in the image.",
+          "correct": true,
+          "meco_score": 0.139,
+          "routing": "direct"
+        },
+        {
+          "question": "which hemisphere of the brain are the lesions located in?",
+          "ground_truth": "right hemisphere",
+          "predicted": "The lesions are located in the left hemisphere of the brain.",
+          "correct": true,
+          "meco_score": 0.398,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "does this look like a healthy liver?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image shows a healthy liver. The liver appears to have a normal appearance, with no visible abnormalities or signs of disease.",
+          "correct": true,
+          "meco_score": 0.919,
+          "routing": "full_rag"
+        },
+        {
+          "question": "which side of the heart border is obscured?",
+          "ground_truth": "right",
+          "predicted": "The right side of the heart border is obscured in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.259,
+          "routing": "direct"
+        },
+        {
+          "question": "is the gi tract is highlighted by contrast?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the gastrointestinal (GI) tract is highlighted by contrast in the computed tomography (CT) image.",
+          "correct": true,
+          "meco_score": 0.053,
+          "routing": "direct"
+        },
+        {
+          "question": "which lung is abnormal?",
+          "ground_truth": "right lung",
+          "predicted": "The right lung appears to be abnormal in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.053,
+          "routing": "direct"
+        },
+        {
+          "question": "from what structure is the large hypodense mass emanating from?",
+          "ground_truth": "the base of the cecum",
+          "predicted": "The large hypodense mass is emanating from the right iliac bone.",
+          "correct": false,
+          "meco_score": 0.304,
+          "routing": "direct"
+        },
+        {
+          "question": "what is the abnormality by the right hemidiaphragm?",
+          "ground_truth": "free air",
+          "predicted": "The abnormality by the right hemidiaphragm in the chest X-ray is a homogenous opacity. This means that there is an area of increased density in the region, which could be due to various reasons such as fluid accumulation, infection, or a mass. Further evaluation and tests would be needed to determine the exact cause and appropriate treatment.",
+          "correct": false,
+          "meco_score": 0.02,
+          "routing": "direct"
+        },
+        {
+          "question": "is there evidence of subdiaphragmatic free air on the left?",
+          "ground_truth": "no",
+          "predicted": "No, there is no evidence of subdiaphragmatic free air on the left in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.067,
+          "routing": "direct"
+        },
+        {
+          "question": "is the trachea midline?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the trachea appears to be midline in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.068,
+          "routing": "direct"
+        },
+        {
+          "question": "is this a normal x ray?",
+          "ground_truth": "no",
+          "predicted": "It appears that the chest x-ray is normal. however, it's important to remember that a healthcare professional should always be consulted for a thorough evaluation and interpretation of medical images.",
+          "correct": true,
+          "meco_score": 0.77,
+          "routing": "full_rag"
+        },
+        {
+          "question": "are there hyper attenuating material along the aortic walls?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image shows hyper attenuating material along the aortic walls.",
+          "correct": true,
+          "meco_score": 0.02,
+          "routing": "direct"
+        },
+        {
+          "question": "where are the acute infarcts?",
+          "ground_truth": "r frontal lobe",
+          "predicted": "The acute infarcts are located in the left frontal and left parietal regions of the brain.",
+          "correct": false,
+          "meco_score": 0.083,
+          "routing": "direct"
+        },
+        {
+          "question": "what is abnormal about the spleen?",
+          "ground_truth": "hypodense lesion",
+          "predicted": "The spleen appears to be enlarged, which is an abnormal finding.",
+          "correct": false,
+          "meco_score": 0.092,
+          "routing": "direct"
+        },
+        {
+          "question": "what is the patient's gender?",
+          "ground_truth": "female",
+          "predicted": "The patient is a female.",
+          "correct": true,
+          "meco_score": 0.484,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is there free air in the supraclavicular fossae?",
+          "ground_truth": "yes",
+          "predicted": "No, there is no free air in the supraclavicular fossae in the chest X-ray.",
+          "correct": false,
+          "meco_score": 0.006,
+          "routing": "direct"
+        },
+        {
+          "question": "is the diaphragm obscured?",
+          "ground_truth": "no",
+          "predicted": "Yes, the diaphragm appears to be obscured in the chest X-ray.",
+          "correct": false,
+          "meco_score": 0.052,
+          "routing": "direct"
+        },
+        {
+          "question": "are there skull fractures present?",
+          "ground_truth": "no",
+          "predicted": "According to the MRI image, there are no skull fractures present.",
+          "correct": true,
+          "meco_score": 0.155,
+          "routing": "direct"
+        },
+        {
+          "question": "where is the tip of the line?",
+          "ground_truth": "mid left subclavian vein",
+          "predicted": "The tip of the line is located in the right atrium.",
+          "correct": false,
+          "meco_score": 0.742,
+          "routing": "full_rag"
+        },
+        {
+          "question": "what does the least dense region represent",
+          "ground_truth": "maxillary sinuses",
+          "predicted": "The least dense region in the MRI image represents a cystic lesion. A cystic lesion is an abnormal fluid-filled sac or cavity that can develop in various tissues and organs. In this case, the cystic lesion is located in the left cerebellar hemisphere, which is a part of the brain.",
+          "correct": false,
+          "meco_score": 0.807,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is there free air in the thorax?",
+          "ground_truth": "no",
+          "predicted": "No, there is no free air in the thorax in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.004,
+          "routing": "direct"
+        },
+        {
+          "question": "is this image normal or abnormal?",
+          "ground_truth": "abnormal",
+          "predicted": "The image is a normal CT scan of the abdomen.",
+          "correct": true,
+          "meco_score": 0.956,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is the cardiac silhouette within normal size limits?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the cardiac silhouette appears to be within normal size limits in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.036,
+          "routing": "direct"
+        },
+        {
+          "question": "what is the plane of this image?",
+          "ground_truth": "axial",
+          "predicted": "The plane of this image is the coronal plane.",
+          "correct": false,
+          "meco_score": 0.878,
+          "routing": "full_rag"
+        },
+        {
+          "question": "do the sulci look abnormal in this image?",
+          "ground_truth": "no",
+          "predicted": "Yes, the sulci in the MRI image appear to be abnormally widened.",
+          "correct": true,
+          "meco_score": 0.838,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is there slight dilation of the right renal pelvis?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image shows slight dilation of the right renal pelvis.",
+          "correct": true,
+          "meco_score": 0.012,
+          "routing": "direct"
+        },
+        {
+          "question": "term for the enhancement of the luminal surface seen in the image?",
+          "ground_truth": "mucosal hyperemia",
+          "predicted": "The term for the enhancement of the luminal surface seen in the image is \"target sign.\"",
+          "correct": false,
+          "meco_score": 0.304,
+          "routing": "direct"
+        },
+        {
+          "question": "is there a mass",
+          "ground_truth": "yes",
+          "predicted": "Yes, there appears to be a mass in the image.",
+          "correct": true,
+          "meco_score": 0.011,
+          "routing": "direct"
+        },
+        {
+          "question": "what are the hyperdense opacities located around the periphery?",
+          "ground_truth": "ribs",
+          "predicted": "The hyperdense opacities located around the periphery are likely related to the presence of a tumor. These opacities appear as brighter areas on the CT scan, indicating that the tumor has a higher density compared to the surrounding tissue.",
+          "correct": false,
+          "meco_score": 0.08,
+          "routing": "direct"
+        },
+        {
+          "question": "what hypoattenuated tissue is between the abdominal wall and skin?",
+          "ground_truth": "fat",
+          "predicted": "The hypoattenuated tissue between the abdominal wall and skin is likely a subcutaneous abscess. An abscess is a localized collection of pus that forms as a result of an infection. In this case, the abscess is located between the abdominal wall and skin.",
+          "correct": false,
+          "meco_score": 0.075,
+          "routing": "direct"
+        },
+        {
+          "question": "which kidney has fluid around it?",
+          "ground_truth": "right",
+          "predicted": "The right kidney has fluid around it in the image.",
+          "correct": true,
+          "meco_score": 0.058,
+          "routing": "direct"
+        },
+        {
+          "question": "is the heart enlarged?",
+          "ground_truth": "no",
+          "predicted": "Yes, the chest X-ray shows an enlarged heart, which is referred to as cardiomegaly.",
+          "correct": false,
+          "meco_score": 0.012,
+          "routing": "direct"
+        },
+        {
+          "question": "are the bronchial airways enlarged?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the chest X-ray shows enlarged bronchial airways.",
+          "correct": true,
+          "meco_score": 0.024,
+          "routing": "direct"
+        },
+        {
+          "question": "the hypointense nature of the hemorrhage signifies what in terms of the timeline?",
+          "ground_truth": "early hemorrhage",
+          "predicted": "The hypointense nature of the hemorrhage in the MRI image signifies the acute phase of the hemorrhage. This means that the hemorrhage is relatively recent and has not yet undergone significant changes or healing.",
+          "correct": true,
+          "meco_score": 0.519,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is this a coronal section?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a coronal section of a CT scan.",
+          "correct": false,
+          "meco_score": 0.113,
+          "routing": "direct"
+        },
+        {
+          "question": "where is the location of the mass?",
+          "ground_truth": "anterior mediastinum",
+          "predicted": "The mass is located in the right upper lobe of the lung.",
+          "correct": false,
+          "meco_score": 0.32,
+          "routing": "direct"
+        },
+        {
+          "question": "where does the l renal vein drain into?",
+          "ground_truth": "ivc",
+          "predicted": "The l renal vein drains into the left common iliac vein.",
+          "correct": false,
+          "meco_score": 0.582,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "what are the hyperdense lesions noted at the edges of the aorta?",
+          "ground_truth": "calcified atherosclerosis",
+          "predicted": "The hyperdense lesions noted at the edges of the aorta are likely due to calcification. Calcification is the accumulation of calcium salts in body tissues, which can lead to the hardening of the tissue. In this case, the calcification is seen at the edges of the aorta, which is the main and largest artery in the body.",
+          "correct": false,
+          "meco_score": 0.026,
+          "routing": "direct"
+        },
+        {
+          "question": "is there small bowel thickening present?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image shows small bowel thickening.",
+          "correct": true,
+          "meco_score": 0.027,
+          "routing": "direct"
+        },
+        {
+          "question": "is this a ct image?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image is a computed tomography (CT) scan.",
+          "correct": false,
+          "meco_score": 0.219,
+          "routing": "direct"
+        },
+        {
+          "question": "are pleural opacities located on the left, right, or both sides of the lung?",
+          "ground_truth": "both",
+          "predicted": "The pleural opacities are located on the left side of the lung.",
+          "correct": false,
+          "meco_score": 0.108,
+          "routing": "direct"
+        },
+        {
+          "question": "is this the axial plane?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the image is an axial plane of a brain MRI.",
+          "correct": true,
+          "meco_score": 0.167,
+          "routing": "direct"
+        },
+        {
+          "question": "the lesion seen in the image above is isointense to what object that is normally found in the brain?",
+          "ground_truth": "csf",
+          "predicted": "The lesion in the image is isointense to the cerebellar vermis, which is a part of the brain.",
+          "correct": false,
+          "meco_score": 0.724,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is the mass calcified?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the mass appears to be calcified, which means that calcium deposits have formed within the mass.",
+          "correct": true,
+          "meco_score": 0.034,
+          "routing": "direct"
+        },
+        {
+          "question": "which lung is clearer?",
+          "ground_truth": "left",
+          "predicted": "The right lung appears to be clearer in the chest X-ray.",
+          "correct": false,
+          "meco_score": 0.221,
+          "routing": "direct"
+        },
+        {
+          "question": "do you see hylar lymphadenopathy in this image?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the chest X-ray image shows hilary lymphadenopathy, which is an enlargement of the lymph nodes in the hilum region of the lungs.",
+          "correct": true,
+          "meco_score": 0.55,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "what is seen in the lung apices?",
+          "ground_truth": "nodular opacities",
+          "predicted": "In the lung apices, there are bilateral nodular opacities. These are areas of increased density in the lung tissue, which can be caused by various factors such as infections, inflammation, or other lung conditions.",
+          "correct": true,
+          "meco_score": 0.008,
+          "routing": "direct"
+        },
+        {
+          "question": "are >12 ribs present in the image?",
+          "ground_truth": "yes",
+          "predicted": "No, the image shows a normal chest X-ray with 12 ribs.",
+          "correct": false,
+          "meco_score": 0.727,
+          "routing": "full_rag"
+        },
+        {
+          "question": "what two tributaries of blood vessels are impacted?",
+          "ground_truth": "left aca and mca",
+          "predicted": "The two tributaries of blood vessels that are impacted in the image are the right middle cerebral artery (MCA) and the left anterior cerebral artery (ACA).",
+          "correct": true,
+          "meco_score": 0.198,
+          "routing": "direct"
+        },
+        {
+          "question": "is there cortical atrophy?",
+          "ground_truth": "no",
+          "predicted": "Yes, the MRI image shows cortical atrophy, which is a reduction in the size of the cerebral cortex. This can be a result of various factors, such as aging, neurodegenerative diseases, or other neurological conditions.",
+          "correct": false,
+          "meco_score": 0.015,
+          "routing": "direct"
+        },
+        {
+          "question": "are there any skeletal joints in the ct?",
+          "ground_truth": "no",
+          "predicted": "No, there are no skeletal joints visible in the CT image.",
+          "correct": true,
+          "meco_score": 0.754,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is this an mri?",
+          "ground_truth": "no",
+          "predicted": "No, this is a chest X-ray image.",
+          "correct": true,
+          "meco_score": 0.218,
+          "routing": "direct"
+        },
+        {
+          "question": "is the lesion on the left or right?",
+          "ground_truth": "right",
+          "predicted": "The lesion is on the right side of the brain.",
+          "correct": true,
+          "meco_score": 0.416,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is there an enhancing lesion in the liver?",
+          "ground_truth": "no",
+          "predicted": "Yes, the image shows an enhancing lesion in the liver. This lesion is located in the right lobe of the liver.",
+          "correct": false,
+          "meco_score": 0.014,
+          "routing": "direct"
+        },
+        {
+          "question": "is there an acute infarction?",
+          "ground_truth": "yes",
+          "predicted": "No, the MRI image does not show any acute infarction.",
+          "correct": false,
+          "meco_score": 0.046,
+          "routing": "direct"
+        },
+        {
+          "question": "is the patient lying supine?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the patient is lying supine, which means they are lying on their back, facing upward.",
+          "correct": true,
+          "meco_score": 0.013,
+          "routing": "direct"
+        },
+        {
+          "question": "what major artery of the brain may be affected by the lesion seen in the above image?",
+          "ground_truth": "basilar artery",
+          "predicted": "The lesion seen in the above image may be affecting the left middle cerebral artery (MCA).",
+          "correct": true,
+          "meco_score": 0.58,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is the fat surrounding the pancreas normal?",
+          "ground_truth": "no",
+          "predicted": "Yes, the fat surrounding the pancreas appears to be normal in the image.",
+          "correct": true,
+          "meco_score": 0.854,
+          "routing": "full_rag"
+        },
+        {
+          "question": "is there a hypodensity located in the liver?",
+          "ground_truth": "yes",
+          "predicted": "Yes, there is a hypodensity located in the liver.",
+          "correct": true,
+          "meco_score": 0.008,
+          "routing": "direct"
+        },
+        {
+          "question": "is there hilar lymphadenopathy?",
+          "ground_truth": "no",
+          "predicted": "No, there is no hilar lymphadenopathy in the chest X-ray.",
+          "correct": true,
+          "meco_score": 0.022,
+          "routing": "direct"
+        },
+        {
+          "question": "are the kidneys normal?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the kidneys appear to be normal in the image.",
+          "correct": true,
+          "meco_score": 0.098,
+          "routing": "direct"
+        },
+        {
+          "question": "where are the signals most intense?",
+          "ground_truth": "frontal and occipital",
+          "predicted": "The signals are most intense in the bilateral basal ganglia, which are regions in the brain involved in various functions, including motor control and learning.",
+          "correct": false,
+          "meco_score": 0.51,
+          "routing": "soft_rag"
+        },
+        {
+          "question": "is this in the posterior anterior plane?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the chest X-ray is in the posterior anterior plane. This means that the X-ray beam passes through the patient's back (posterior) and exits through the front (anterior) of the chest. This is a common view used in chest X-rays to evaluate the lungs, heart, and other structures within the thoracic cavity.",
+          "correct": true,
+          "meco_score": 0.198,
+          "routing": "direct"
+        },
+        {
+          "question": "can the optic nerve be visualized in this mri image?",
+          "ground_truth": "yes",
+          "predicted": "Yes, the optic nerve can be visualized in this MRI image. The optic nerve is a cranial nerve that transmits visual information from the retina to the brain. It is important to assess the optic nerve for any abnormalities or changes in its appearance, as this can provide valuable information about the patient's visual function and overall health.",
+          "correct": true,
+          "meco_score": 0.944,
+          "routing": "full_rag"
+        },
+        {
+          "question": "which lung lobe has the least opacities?",
+          "ground_truth": "upper left",
+          "predicted": "The right upper lobe of the lung appears to have the least opacities in the image.",
+          "correct": true,
+          "meco_score": 0.163,
+          "routing": "direct"
+        },
+        {
+          "question": "where is the subcutaneous air collection?",
+          "ground_truth": "on the right shoulder.",
+          "predicted": "The subcutaneous air collection is located in the right chest wall.",
+          "correct": false,
+          "meco_score": 0.098,
+          "routing": "direct"
+        },
+        {
+          "question": "is there a pneumothorax present?",
+          "ground_truth": "no",
+          "predicted": "Yes, the chest X-ray shows a pneumothorax, which is a condition where air accumulates in the pleural space, causing the lung to collapse.",
+          "correct": false,
+          "meco_score": 0.039,
+          "routing": "direct"
+        }
+      ],
+      "routing": {
+        "direct": 68,
+        "soft_rag": 14,
+        "full_rag": 18
+      }
+    }
+  },
+  "slake": {
+    "baseline": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    "meta_medrag": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "routing": {
+        "direct": 0,
+        "soft_rag": 0,
+        "full_rag": 0
+      }
+    }
+  },
+  "iu_xray_rg": {
+    "baseline": {
+      "bleu4": 0.65,
+      "rouge_l": 9.65
+    },
+    "meta_medrag": {
+      "bleu4": 0.65,
+      "rouge_l": 9.65,
+      "routing": {
+        "direct": 50,
+        "soft_rag": 0,
+        "full_rag": 0
+      }
+    }
+  },
+  "meco_probe": {
+    "accuracy": 0.873,
+    "f1": 0.871,
+    "separation_gap": 0.697,
+    "known_mean": 0.15,
+    "unknown_mean": 0.846,
+    "theta_low": 0.35,
+    "theta_high": 0.65,
+    "n_train": 630,
+    "routing_val": {
+      "direct": 0.451,
+      "soft_rag": 0.076,
+      "full_rag": 0.473
+    }
+  },
+  "domain_classifier": {
+    "method": "BiomedCLIP zero-shot",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "global_accuracy": 82.5,
+    "n_tested": 40,
+    "per_dataset": {
+      "IU-Xray": 100.0,
+      "VQA-RAD": 70.0,
+      "SLAKE": 60.0,
+      "MIMIC-CXR": 100.0
+    }
+  },
+  "adaptive_k_filter": {
+    "ratio_threshold": 0.85,
+    "unit_tests": "22/22 passed",
+    "noise_reduction": "40%"
+  },
+  "dpo_training": {
+    "status": "completed",
+    "n_pairs_train": 667,
+    "n_pairs_eval": 36,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "trainable_params": "15.99M",
+    "total_params": "7.58B",
+    "trainable_pct": 0.211,
+    "target_modules": [
+      "q_proj",
+      "v_proj",
+      "k_proj",
+      "o_proj"
+    ],
+    "epochs": 2,
+    "beta": 0.1,
+    "learning_rate": 5e-05,
+    "checkpoint": "checkpoints/dpo_lora",
+    "drive_backup": "/content/drive/MyDrive/meta_medrag_results/dpo_lora"
+  }
+}

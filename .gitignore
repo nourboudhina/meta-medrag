@@ -1,32 +1,29 @@
-<<<<<<< HEAD
-data/  
-checkpoints/  
-venv/  
-.ipynb_checkpoints/  
-*.pt  
-*.pkl  
-*.gz 
-data/raw/ 
-data/activations*/ 
-checkpoints/ 
-*.pt 
-*.pkl 
-*.faiss 
-__pycache__/ 
-.pytest_cache/ 
-*.egg-info/ 
-=======
-data/ 
-checkpoints/ 
-LLaVA-Med/ 
-*.pt 
-*.pkl 
-*.faiss 
-*.bin 
-*.safetensors 
-__pycache__/ 
-.pytest_cache/ 
-*.egg-info/ 
-logs/ 
-meta_medrag.egg-info/
->>>>>>> 2098fb1f32d5412fc9b48b906ba7ff1ebe9270b0
+﻿# Large model files
+checkpoints/meco_probe_v2.pkl
+checkpoints/dpo_lora/adapter_model.bin
+checkpoints/dpo_lora/tokenizer.json
+checkpoints/dpo_lora/tokenizer.model
+
+# Data directories (too large)
+data/raw/
+data/vector_stores/
+data/activations/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environments
+.env
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+*.bak
+*.tmp
+bitsandbytes/

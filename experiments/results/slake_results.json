@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "correct": 13,
+    "total": 50,
+    "answers": [],
+    "accuracy": 26.0
+  },
+  "meta_medrag": {
+    "correct": 12,
+    "total": 50,
+    "routing": {
+      "direct": 0,
+      "soft_rag": 50,
+      "full_rag": 0
+    },
+    "answers": [],
+    "accuracy": 24.0
+  }
+}

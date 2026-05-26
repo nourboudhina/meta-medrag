@@ -1,0 +1,162 @@
+{
+  "method": "BiomedCLIP zero-shot",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "n_per_dataset": 10,
+  "global_accuracy": 75.0,
+  "per_dataset": {
+    "IU-Xray": {
+      "accuracy": 100.0,
+      "correct": 10,
+      "total": 10,
+      "true_domain": "radiology",
+      "errors": []
+    },
+    "VQA-RAD": {
+      "accuracy": 40.0,
+      "correct": 4,
+      "total": 10,
+      "true_domain": "radiology",
+      "errors": [
+        {
+          "file": "img_train_1757.png",
+          "expected": "radiology",
+          "predicted": "pathology",
+          "scores": {
+            "radiology": 0.329,
+            "pathology": 0.338,
+            "ophthalmology": 0.333
+          }
+        },
+        {
+          "file": "img_test_280.png",
+          "expected": "radiology",
+          "predicted": "pathology",
+          "scores": {
+            "radiology": 0.34,
+            "pathology": 0.347,
+            "ophthalmology": 0.314
+          }
+        },
+        {
+          "file": "img_train_1205.png",
+          "expected": "radiology",
+          "predicted": "pathology",
+          "scores": {
+            "radiology": 0.344,
+            "pathology": 0.353,
+            "ophthalmology": 0.302
+          }
+        },
+        {
+          "file": "img_test_420.png",
+          "expected": "radiology",
+          "predicted": "pathology",
+          "scores": {
+            "radiology": 0.325,
+            "pathology": 0.344,
+            "ophthalmology": 0.331
+          }
+        },
+        {
+          "file": "img_train_1564.png",
+          "expected": "radiology",
+          "predicted": "pathology",
+          "scores": {
+            "radiology": 0.349,
+            "pathology": 0.352,
+            "ophthalmology": 0.299
+          }
+        },
+        {
+          "file": "img_train_1017.png",
+          "expected": "radiology",
+          "predicted": "pathology",
+          "scores": {
+            "radiology": 0.323,
+            "pathology": 0.344,
+            "ophthalmology": 0.333
+          }
+        }
+      ]
+    },
+    "SLAKE": {
+      "accuracy": 60.0,
+      "correct": 6,
+      "total": 10,
+      "true_domain": "radiology",
+      "errors": [
+        {
+          "file": "source.jpg",
+          "expected": "radiology",
+          "predicted": "ophthalmology",
+          "scores": {
+            "radiology": 0.322,
+            "pathology": 0.329,
+            "ophthalmology": 0.349
+          }
+        },
+        {
+          "file": "mask.png",
+          "expected": "radiology",
+          "predicted": "ophthalmology",
+          "scores": {
+            "radiology": 0.336,
+            "pathology": 0.325,
+            "ophthalmology": 0.339
+          }
+        },
+        {
+          "file": "source.jpg",
+          "expected": "radiology",
+          "predicted": "pathology",
+          "scores": {
+            "radiology": 0.344,
+            "pathology": 0.345,
+            "ophthalmology": 0.311
+          }
+        },
+        {
+          "file": "mask.png",
+          "expected": "radiology",
+          "predicted": "ophthalmology",
+          "scores": {
+            "radiology": 0.345,
+            "pathology": 0.308,
+            "ophthalmology": 0.346
+          }
+        }
+      ]
+    },
+    "MIMIC-CXR": {
+      "accuracy": 100.0,
+      "correct": 10,
+      "total": 10,
+      "true_domain": "radiology",
+      "errors": []
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "ophthalmology",
+      "pathology",
+      "radiology"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        7,
+        30
+      ]
+    ]
+  }
+}
